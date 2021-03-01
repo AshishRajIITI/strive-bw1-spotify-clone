@@ -1,4 +1,7 @@
-<img style="text-align:center; -webkit-animation: rotate-90-cw 3s linear infinite both; animation: rotate-90-cw 3s linear infinite both" width="100" alt="Strive Logo" src="https://strive.school/assets/strive_logo02.png">
+
+<div style="text-align:center; -webkit-animation: rotate-90-cw 3s linear infinite both; animation: rotate-90-cw 3s linear infinite both">
+  <img width="100" alt="Strive Logo" src="https://strive.school/assets/strive_logo02.png">
+</div>
 
 ## Build Week 1 Portfolio Project - Spotify Clone
 
