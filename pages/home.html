@@ -18,18 +18,57 @@
     <title>Spotify | Home</title>
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <a href="home.html">Home</a>
-        <a href="album.html">Album</a>
-        <a href="artist.html">Artist</a>
-        <a href="../index.html">Sign Out</a>
-      </ul>
-    </nav>
-    <h1>Lorem ipsum dolor sit.</h1>
+    <div class="page-wrapper d-flex-column">
+      <div style="height: 85vh" class="content-nav-wrapper row h-80">
+        <!-- Nav - Sidebar -->
+        <div
+          style="min-width: 200px; background-color: #060c13; color: white"
+          class="col-2 container"
+        >
+          <h1>nav</h1>
+          <nav>
+            <ul class="d-flex flex-column">
+              <a href="home.html">Home</a>
+              <a href="album.html">Search</a>
+              <a href="artist.html">Your Library</a>
+              <a href="../index.html">Sign Out</a>
+            </ul>
+          </nav>
+        </div>
+        <main
+          style="
+            background: rgb(3, 2, 13);
+            background: linear-gradient(
+              311deg,
+              rgba(3, 2, 13, 1) 0%,
+              rgba(10, 37, 69, 1) 51%,
+              rgba(45, 70, 177, 1) 100%
+            );
+          "
+          class="col"
+        >
+          <h1>main</h1>
+          <div class="container">
+            <div class="d-flex row justify-content-center">
+              <div><a href="#">TRENDING</a></div>
+              <div><a href="#">PODCAST</a></div>
+              <div><a href="#">MOODS AND GENRES</a></div>
+              <div><a href="#">NEW RELEASES</a></div>
+              <div><a href="#">DISCOVERS</a></div>
+            </div>
+            <div>
+              <h2>#THROWBACKTHURSDAY</h2>
+            </div>
+          </div>
+        </main>
+      </div>
 
-    <!-- PAGE CONTENT BELOW HERE -->
+      <div style="min-height: 150px" class="playbar">
+        <h1>playbar</h1>
+      </div>
+    </div>
+
+    <!-- Main content-->
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
