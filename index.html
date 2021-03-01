@@ -7,7 +7,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -15,24 +14,48 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/index.css" />
-    <title>Spotify | Signup</title>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/index/index.css" />
+    <title>Spotify | Home</title>
   </head>
   <body>
-    <h1>Sign In | Login Page</h1>
-    <p>Enrico !</p>
-    <nav>
-      <ul>
-        <a href="/pages/home.html">Home</a>
-        <a href="/pages/album.html">Album</a>
-        <a href="/pages/artist.html">Artist</a>
-      </ul>
-    </nav>
+    <div class="page-wrapper d-flex-column">
+      <div style="height: 85vh" class="content-nav-wrapper row h-80">
+        <!-- Nav - Sidebar -->
+        <div class="col-2 nav-wrapper container">
+          <h1>nav</h1>
+          <nav>
+            <ul class="d-flex flex-column">
+              <a href="../index.html">Home</a>
+              <a href="/pages/album.html">Album</a>
+              <a href="/pages/artist.html">Artist</a>
+              <a href="/pages/signup.html">Signup</a>
+            </ul>
+          </nav>
+        </div>
+        <main id="index-main" class="col">
+          <h1>main</h1>
+          <div class="container">
+            <div class="d-flex row justify-content-center">
+              <div><a href="#">TRENDING</a></div>
+              <div><a href="#">PODCAST</a></div>
+              <div><a href="#">MOODS AND GENRES</a></div>
+              <div><a href="#">NEW RELEASES</a></div>
+              <div><a href="#">DISCOVERS</a></div>
+            </div>
+            <div>
+              <h2>#THROWBACKTHURSDAY</h2>
+            </div>
+          </div>
+        </main>
+      </div>
 
-    <!-- PAGE CONTENT BELOW HERE -->
+      <div id="playbar">
+        <h1>playbar</h1>
+      </div>
+    </div>
 
-    <h2>test commit</h2>
-    <h2>test uncommit</h2>
+    <!-- Main content-->
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

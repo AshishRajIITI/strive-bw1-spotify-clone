@@ -1,9 +1,0 @@
-h1 {
-  color: lightgreen;
-}
-
-main > div > img {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-/*# sourceMappingURL=index.css.map */
