@@ -1,3 +1,51 @@
-h1 {
-  color: lightgreen;
+.container {
+  width: 1000px;
+}
+img {
+  max-width: 200px;
+  max-height: 300px;
+}
+.card {
+  border: none;
+}
+.form-signin .btn {
+  font-size: 50%;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+.btn-sm {
+  height: 35px;
+  text-align: center;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}
+.btn-apple {
+  color: white;
+  background-color: #000000;
+}
+.divider hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.divider {
+  font-size: 70%;
+}
+::-webkit-input-placeholder {
+  font-size: 70%;
+}
+.custom-control label {
+  font-size: 70%;
+  text-align: center;
 }
