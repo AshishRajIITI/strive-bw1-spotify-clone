@@ -20,15 +20,37 @@
     <title>Spotify | Artist</title>
   </head>
   <body>
-    <h1>Artist Page</h1>
-    <nav>
-      <ul>
-        <a href="home.html">Home</a>
-        <a href="album.html">Album</a>
-        <a href="artist.html">Artist</a>
-        <a href="../index.html">Sign Out</a>
-      </ul>
-    </nav>
+    <div class="page-wrapper d-flex-column">
+      <div style="height: 80vh" class="content-nav-wrapper row h-80">
+        <!-- Nav - Sidebar -->
+        <div style="min-width: 200px" class="col-2 border container">
+          <h1>Nav</h1>
+          <nav>
+            <ul class="d-flex flex-column">
+              <a href="home.html">Home</a>
+              <a href="album.html">Album</a>
+              <a href="artist.html">Artist</a>
+              <a href="../index.html">Sign Out</a>
+            </ul>
+          </nav>
+        </div>
+        <div class="col border">
+          <main>
+            <div class="container-fluid vh-35">
+              <img
+                src="../assets/artist-top-image.jpg"
+                class="img-fluid"
+                alt="Queen"
+              />
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <div class="playbar">
+        <h1>playbar</h1>
+      </div>
+    </div>
 
     <!-- PAGE CONTENT BELOW HERE -->
     <script
