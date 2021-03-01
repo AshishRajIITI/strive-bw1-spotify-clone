@@ -14,38 +14,26 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/index/index.css" />
     <title>Spotify | Home</title>
   </head>
   <body>
     <div class="page-wrapper d-flex-column">
       <div style="height: 85vh" class="content-nav-wrapper row h-80">
         <!-- Nav - Sidebar -->
-        <div
-          style="min-width: 200px; background-color: #060c13; color: white"
-          class="col-2 container"
-        >
+        <div class="col-2 nav-wrapper container">
           <h1>nav</h1>
           <nav>
             <ul class="d-flex flex-column">
+              <a href="../index.html">Home</a>
               <a href="/pages/album.html">Album</a>
-              <a href="/pages/artist.html">Your Library</a>
+              <a href="/pages/artist.html">Artist</a>
               <a href="/pages/signup.html">Signup</a>
             </ul>
           </nav>
         </div>
-        <main
-          style="
-            background: rgb(3, 2, 13);
-            background: linear-gradient(
-              311deg,
-              rgba(3, 2, 13, 1) 0%,
-              rgba(10, 37, 69, 1) 51%,
-              rgba(45, 70, 177, 1) 100%
-            );
-          "
-          class="col"
-        >
+        <main id="index-main" class="col">
           <h1>main</h1>
           <div class="container">
             <div class="d-flex row justify-content-center">
@@ -62,7 +50,7 @@
         </main>
       </div>
 
-      <div style="min-height: 150px" class="playbar">
+      <div id="playbar">
         <h1>playbar</h1>
       </div>
     </div>
