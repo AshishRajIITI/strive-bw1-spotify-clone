@@ -1,8 +1,6 @@
-<img style=" -webkit-animation: rotate-90-cw 3s linear infinite both; animation: rotate-90-cw 3s linear infinite both" width="100" alt="Strive Logo" src="https://strive.school/assets/strive_logo02.png">
+<img style="text-align:center; -webkit-animation: rotate-90-cw 3s linear infinite both; animation: rotate-90-cw 3s linear infinite both" width="100" alt="Strive Logo" src="https://strive.school/assets/strive_logo02.png">
 
-TEAM: EKOW, ENRICO & SEAN
-
-# Buildwweek 1 Portfolio Project - Spotify Clone
+## Build Week 1 Portfolio Project - Spotify Clone
 
 > Our first Bootstrap5 project used to wet our feet using bootstraps standard components, no major frontend framework implemented, just a simple bootstrap one pager.
 
