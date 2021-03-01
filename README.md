@@ -1,4 +1,4 @@
-![](https://strive.school/assets/strive_logo02.png){:height="50%"}
+<img width="100" alt="Strive Logo" src="https://strive.school/assets/strive_logo02.png">
 
 TEAM: EKOW, ENRICO & SEAN
 
