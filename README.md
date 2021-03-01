@@ -1,8 +1,8 @@
-![](https://strive.school/assets/strive_logo02.png)
+![](https://strive.school/assets/strive_logo02.png | width=100)
 
 TEAM: EKOW, ENRICO & SEAN
 
-# Benchmark Portfolio Project - gog.com clone
+# Buildwweek 1 Portfolio Project - Spotify Clone
 
 > Our first Bootstrap5 project used to wet our feet using bootstraps standard components, no major frontend framework implemented, just a simple bootstrap one pager.
 
