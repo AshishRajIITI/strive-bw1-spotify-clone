@@ -16,20 +16,43 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../css/album/album.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+
     <title>Spotify | Album</title>
   </head>
   <body>
-    <h1>Album Page</h1>
-    <nav>
-      <ul>
-        <a href="home.html">Home</a>
-        <a href="album.html">Album</a>
-        <a href="artist.html">Artist</a>
-        <a href="../index.html">Sign Out</a>
-      </ul>
-    </nav>
-
     <!-- PAGE CONTENT BELOW HERE -->
+    <div class="container album-page">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-col-lg-2">
+        <div class="ablum-cover-section col">
+          <img
+            class="img-fluid"
+            src="/assets/queens-ii-album-cover.jpg"
+            width="300px"
+            alt=""
+          />
+          <h3>Queen II (Deluxe Edition 2011 Remaster)</h3>
+          <p>Queen</p>
+          <button
+            type="button"
+            class="btn btn-success rounded-0 text-uppercase p-2 mb-2"
+          >
+            play
+          </button>
+          <p>1974 • 16 songs</p>
+          <i class="far fa-heart mt-4"></i>
+          <span><i class="fas fa-ellipsis-h"></i></span>
+        </div>
+        <div class="album-tracks-section col"></div>
+      </div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
