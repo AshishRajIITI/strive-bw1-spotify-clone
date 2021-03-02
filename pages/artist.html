@@ -20,65 +20,73 @@
     <title>Spotify | Artist</title>
   </head>
   <body>
-    <div class="page-wrapper d-flex-column">
-      <div
-        style="height: 100vh"
-        class="content-nav-wrapper flex-nowrap row h-80"
-      >
-        <!-- Nav - Sidebar -->
-        <div class="col-2 nav-wrapper container">
-          <h1>Nav</h1>
-          <nav>
-            <ul class="d-flex flex-column">
-              <a href="../index.html">Home</a>
-              <a href="album.html">Album</a>
-              <a href="artist.html">Artist</a>
-              <a href="../index.html">Signout</a>
+    <!-- Sidebar navigation -->
+    <nav class="d-flex flex-column justify-content-between pl-3">
+      <div class="container mt-5">
+        <div class="d-flex flex-column justify-content-between menu-container">
+          <div class="p-3">
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <a href="../index.html">
+                  <img style="width: 150px" src="../assets/Logo2.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="/pages/album.html">Album</a>
+              </li>
+              <li>
+                <a href="/pages/artist.html">Artist</a>
+              </li>
+              <li>
+                <a href="/pages/signup.html">Signup</a>
+              </li>
             </ul>
-          </nav>
+          </div>
+          <div class="d-flex flex-column border justify-content-center">
+            <button class="m-1">SIGN UP</button>
+            <button class="m-1">LOGIN</button>
+          </div>
         </div>
-        <div class="col border">
-          <main>
-            <div id="header" class="container-fluid px-0 text-center">
-              <img src="../../assets/artist-top-image.jpg" alt="Queen image" />
-              <div class="artist-wrapper row no-gutters">
-                <div class="col col-4"></div>
-                <div class="artist-content col col-4">
-                  <div class="artist-title">
-                    <p class="text-muted font-weight-bold">
-                      33,000,575 MONTHLY LISTENERS
-                    </p>
-                    <p class="band-name">Queen</p>
-                  </div>
-                  <div class="artist-body">
-                    <button type="button" class="artist-btn-play">Play</button>
-                    <button type="button" class="artist-btn-follow">
-                      Follow
-                    </button>
-                    <div>
-                      <a href="#" class="artist-body-more">...</a>
-                    </div>
-                  </div>
-                  <div class="artist-footer row no-gutters">
-                    <div class="col col-4">
-                      <a href="#">OVERVIEW</a>
-                    </div>
-                    <div class="col col-4">
-                      <a href="#">RELATED ARTISTS</a>
-                    </div>
-                    <div class="col col-4"><a href="#">ABOUT</a></div>
-                  </div>
-                </div>
-                <div class="col col-4"></div>
+      </div>
+    </nav>
+    <!-- Main content -->
+    <main>
+      <div id="header" class="container-fluid px-0 text-center">
+        <img src="../../assets/artist-top-image.jpg" alt="Queen image" />
+        <div class="artist-wrapper row no-gutters">
+          <div class="col col-4"></div>
+          <div class="artist-content col col-4">
+            <div class="artist-title">
+              <p class="text-muted font-weight-bold">
+                33,000,575 MONTHLY LISTENERS
+              </p>
+              <p class="band-name">Queen</p>
+            </div>
+            <div class="artist-body">
+              <button type="button" class="artist-btn-play">Play</button>
+              <button type="button" class="artist-btn-follow">Follow</button>
+              <div>
+                <a href="#" class="artist-body-more">...</a>
               </div>
             </div>
-          </main>
+            <div class="artist-footer row no-gutters">
+              <div class="col col-4">
+                <a href="#">OVERVIEW</a>
+              </div>
+              <div class="col col-4">
+                <a href="#">RELATED ARTISTS</a>
+              </div>
+              <div class="col col-4"><a href="#">ABOUT</a></div>
+            </div>
+          </div>
+          <div class="col col-4"></div>
         </div>
       </div>
+    </main>
 
-      <div id="playbar">
-        <h1>playbar</h1>
-      </div>
+    <!-- playbar -->
+    <div id="playbar">
+      <h1>playbar</h1>
     </div>
 
     <!-- PAGE CONTENT BELOW HERE -->
