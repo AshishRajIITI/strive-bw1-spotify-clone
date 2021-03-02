@@ -1,7 +1,10 @@
 h1 {
   color: lightcoral;
 }
-/*# sourceMappingURL=album.css.map */
+
+h1 {
+  color: lightcoral;
+}
 
 body {
   margin: 0;
@@ -63,3 +66,4 @@ p {
 .btn-success {
   background-color: #1db954;
 }
+/*# sourceMappingURL=album.css.map */
