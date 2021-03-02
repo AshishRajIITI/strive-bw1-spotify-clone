@@ -33,6 +33,7 @@ img {
 .btn-apple {
   color: white;
   background-color: #000000;
+  border-color: black;
 }
 
 .divider hr {
@@ -65,5 +66,29 @@ img {
 main > div > img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.btn-sign-in {
+  background-color: #1db954;
+  border-color: #1db954;
+}
+
+p:first-of-type {
+  color: #1db954;
+  margin-top: 20px;
+}
+
+.btn-sign-up {
+  color: #000000;
+  background-color: transparent;
+  border-color: black;
+}
+
+p:last-of-type {
+  font-size: smaller;
+}
+
+p > a {
+  color: #1db954;
 }
 /*# sourceMappingURL=signup.css.map */
