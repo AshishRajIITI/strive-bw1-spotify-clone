@@ -1,11 +1,6 @@
 h1 {
   color: lightcoral;
 }
-
-h1 {
-  color: lightcoral;
-}
-
 body {
   margin: 0;
   background-color: #333333;
@@ -43,7 +38,7 @@ p {
   height: 900px;
 }
 
-.small-text {
+.album-name {
   font-size: 12px;
   color: gray;
 }
@@ -53,7 +48,8 @@ p {
   color: gray;
 }
 
-.track-list {
+.track-list,
+.album-track {
   font-size: 0.8rem;
   color: #fff;
 }
@@ -65,5 +61,18 @@ p {
 
 .btn-success {
   background-color: #1db954;
+}
+
+table {
+  width: 75vw;
+}
+
+.icon-box {
+  width: 10px;
+  color: #fff;
+}
+
+.track-time {
+  width: 80px;
 }
 /*# sourceMappingURL=album.css.map */
