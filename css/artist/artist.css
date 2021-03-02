@@ -1,4 +1,111 @@
 h1 {
   color: lightpink;
 }
+
+.col.border {
+  padding-left: 0px;
+}
+
+#header {
+  height: 40vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#header img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: translateY(-500px);
+          transform: translateY(-500px);
+}
+
+.artist-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  bottom: 0px;
+}
+
+.artist-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.artist-title {
+  margin-bottom: 1rem;
+}
+
+.artist-title p {
+  margin: 0px;
+}
+
+.band-name {
+  font-size: 4rem;
+  color: white;
+  font-weight: 700;
+}
+
+.artist-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.artist-body button {
+  margin-right: 1rem;
+}
+
+.artist-body-more {
+  text-decoration: none;
+  height: 40px;
+  font-weight: 800;
+  color: white;
+}
+
+.artist-body-more:hover {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+}
+
+.artist-btn-play {
+  background-color: #2ed760;
+  border: solid 2px transparent;
+}
+
+.artist-btn-follow {
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid 2px #ffffff;
+}
+
+.artist-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.artist-footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
 /*# sourceMappingURL=artist.css.map */
