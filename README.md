@@ -35,9 +35,6 @@ main  dev
 
 [Live Demo Link](https://strive-m2-d10-benchmark-gogcom.netlify.app/)
 
-#### Getting Started
-
-Git clone the repository and use live server or a simple server to serve the index.html in your browser, alternatively just open a browser and navigate to the cloned repo and launch index.html from there.**
 
 To get a local copy up and running follow these simple example steps.
 
@@ -62,11 +59,13 @@ To get a local copy up and running follow these simple example steps.
 
 Hope this guide helps :).
 
+#### Getting Started
+
+Git clone the repository and use live server or a simple server to serve the index.html in your browser, alternatively just open a browser and navigate to the cloned repo and launch index.html from there.
+
 #### Prerequisites
 
-VS Code and LiveServer
-
-#### Usage
+Visual Studio Code and LiveServer plugin for serving the index.html file in your local browser.
 
 #### Deployment
 
@@ -90,14 +89,16 @@ Feel free to check the [issues page](issues/).
 
 #### Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project, every star means something for a junior developer show this team some love :)!
 
 #### Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+To our Strive mentors:
+
+- Luis
+- Stefano
+- Tatiana
 
 #### 📝 License
 
-This project is [MIT](lic.url) licensed.
+No need, this is freely available.
