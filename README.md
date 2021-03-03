@@ -10,11 +10,11 @@
 
 > Each team member was assigned and took ownership in building a specific page of the site also to develop beskpoke dynamic and interactive app functionality.
 
-#### Live Site
+#### Site
 
 > [Spotify Clone - Demo](https://strive-bw1-spotify-clone.netlify.app)
 
-#### Built With
+#### Stack
 
 > Our chosen stack for this project
 
