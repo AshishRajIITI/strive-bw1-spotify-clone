@@ -41,9 +41,9 @@ Main branch        |
 ^  <-------------- |
 |                  | \
 |                  |  \
-|                  |   \ local feature branches merged into dev/staging for testing before being merged to main/production
-|                  |   / ex. branch: toni/header-img-fix     
-|                  |  /
+|                  |   \ local feature branches merged into dev/staging for 
+|                  |   / testing before being merged to main/production   
+|                  |  /  ex. branch: toni/header-img-fix  
 |                  | / 
 |                  |
 main ------------ dev <------ freature branches (Ekow, Toni, Enrico & Sean)
