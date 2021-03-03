@@ -75,7 +75,7 @@ Visual Studio Code and LiveServer plugin for serving the index.html file in your
 
 #### Deployment
 
-Our 'Main' deployment branch is CI into netlify so any pushes to the main branch repo will auto publish to Netlify.
+Our 'Main' deployment branch is CI into netlify so any pushes to the main branch repo will auto publish to Netlify hosting and edge node CDN.
 
 #### Authors
 
