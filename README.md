@@ -7,7 +7,7 @@
 
 > Our 1st team build week assignment and portfolio project which is a Spotify Clone
 
-![screenshot](./strive-m2-d2-netlify-app.png)
+![screenshot](./assets/readme/screenshot1.png)
 
 > Each team member was assigned and took ownership of a page and also specific/bespoke app functionality to deliver consistent and reliable features improvements over a full 5 day period.
 
