@@ -117,10 +117,6 @@ p:last-of-type {
   border-color: #f9f9f9;
 }
 
-label.custom-control-label {
-  margin-top: 20px;
-}
-
 span > img {
   max-width: 15px;
   max-height: 15px;
