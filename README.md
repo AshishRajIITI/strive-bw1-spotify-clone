@@ -18,7 +18,7 @@ Each team member was assigned and took ownership of a page and also specific/bes
 - Technologies - Netlify Hosting
 - Infrascrture - Github
 
-#### INFRASTRUCTURE
+#### Infrastructure
 
 Our git development workflow as follows: 
 
