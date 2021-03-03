@@ -7,7 +7,7 @@
 
 #### BW1 Spotify Clone
 
-> Our very first build week project, a clone of the shopify web application.
+> Our first build week project - a clone of the Spotify Web App.
 <img width="500" alt="Spotify clone homepage" src="./assets/readme/screenshot1.PNG"> 
 
 > Each team member took ownership of building a specific page and also in developing beskpoke dynamic interactivity.
