@@ -19,9 +19,9 @@
 > Our technology stack for this project
 
 - Major languages - HTML, CSS, Javascript(ES6)
-- Frameworks - Bootstrap4.6
-- Technologies - Netlify Hosting
-- Infrascrture - Github
+- Frameworks - Bootstrap v4.6
+- Technologies - Netlify Hosting & CDN
+- Infrastructure - Github CI
 
 #### Infrastructure
 
