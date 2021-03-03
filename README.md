@@ -6,8 +6,8 @@
 #### Build Week 1 Portfolio Project - Spotify Clone
 
 > Our 1st team build week assignment and portfolio project which is a Spotify Clone
-
-![screenshot](./assets/readme/screenshot1.PNG)
+./assets/readme/screenshot1.PNG
+<img width="300" alt="Spotify clone homepage" src="./assets/readme/screenshot1.PNG"> 
 
 > Each team member was assigned and took ownership of a page and also specific/bespoke app functionality to deliver consistent and reliable features improvements over a full 5 day period.
 
