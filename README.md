@@ -11,7 +11,7 @@
 
 > Each team member was assigned and took ownership of a page and also specific/bespoke app functionality to deliver consistent and reliable features improvements over a full 5 day period.
 
-#### Live deployment
+#### Live Sit
 
 [Link to demo](https://strive-m2-d10-benchmark-gogcom.netlify.app/)
 
