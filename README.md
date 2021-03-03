@@ -3,8 +3,6 @@
   <img width="300" alt="Strive Logo" src="https://strive.school/assets/strive_black.png">      <img width="300" alt="Strive Logo" src="/assets/Logo1.png"> 
 </div>
 
-
-https://strive.school/assets/strive_logo02.png
 #### BW1 Portfolio Project - Spotify Clone
 
 > Our 1st team build week assignment and portfolio project which is a Spotify Clone
