@@ -27,9 +27,9 @@ Standard boostrap5, used the CDN to serve the css and javascript, will implement
 
 To get a local copy up and running follow these simple example steps.
 
-#### COMMITTING GUIDE
+##### Git commit guide
 
-GIT command instruction refresher: 
+GIT commands refresher: 
 
 - git pull - pulls latest changes from the remote upstream on whichever branch you are on
 - git branch - shows all local branches
@@ -52,15 +52,13 @@ Hope this guide helps :).
 
 #### Prerequisites
 
-#### Setup
-
-#### Install
+VS Code and LiveServer
 
 #### Usage
 
-#### Run tests
-
 #### Deployment
+
+Is live on netlify and can be viewed by following the demo link above
 
 #### Authors
 
