@@ -1,15 +1,30 @@
 function navbar(elementId) {
-  const state = {
-    links: {
+  let state = {
+    pageRoutes: {
       home: '../index.html',
-      assets: '../assets/',
-      css: '../css/'
+      artist: '/artist.html',
+      album: '/album.html',
+      logo: '../assets/Logo2.png'
+    },
+    homeRoutes: {
+      home: 'index.html',
+      artist: '/pages/artist.html',
+      album: '/pages/artist.html',
+      logo: '../assets/Logo2.png'
+    },
+    isPages: false
+  }
+
+  // checks the URL to see if it contains 'pages'
+  function pageDirCheck() {
+    if (window.location.href.indexOf('pages') > 0) {
+      state.isPages = !state.isPages
     }
   }
 
-  if (window.location.href.indexOf('pages') > 0) {
-    console.log('contains pages')
-  }
+  // test
+  pageDirCheck()
+  console.log(state.isPages)
 
   const template = `
      <nav class="d-flex flex-column justify-content-between pl-3">
@@ -20,8 +35,16 @@ function navbar(elementId) {
             <div>
               <ul class="list-unstyled">
                 <li>
-                  <a href="/index.html">
-                    <img style="width: 150px" src="./assets/Logo2.png" alt="" />
+                  <a href="${
+                    state.isPages
+                      ? state.pageRoutes.home
+                      : state.homeRoutes.home
+                  }">
+                    <img style="width: 150px" src="${
+                      state.isPages
+                        ? state.pageRoutes.logo
+                        : state.homeRoutes.logo
+                    }" alt="" />
                   </a>
                 </li>
                 <li>
@@ -29,11 +52,19 @@ function navbar(elementId) {
                 </li>
                 <li>
                   <i class="fab fa-artstation"></i
-                  ><a href="/pages/artist.html">Artist</a>
+                  ><a href=""${
+                    state.isPages
+                      ? state.pageRoutes.artist
+                      : state.homeRoutes.artist
+                  }">Artist</a>
                 </li>
                 <li>
                   <i class="fas fa-compact-disc"></i
-                  ><a href="/pages/album.html">Album</a>
+                  ><a href="${
+                    state.isPages
+                      ? state.pageRoutes.album
+                      : state.homeRoutes.album
+                  }">Album</a>
                 </li>
               </ul>
             </div>
