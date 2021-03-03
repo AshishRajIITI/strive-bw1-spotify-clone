@@ -77,15 +77,20 @@ Visual Studio Code and LiveServer plugin for serving the index.html file in your
 
 Our 'Main' deployment branch is CI into netlify so any pushes to the main branch will auto publish to Netlify hosting and edge CDN.
 
-#### Authors
+#### Team
 
-👤 **Author1**
+
+
+👤 Ekow
+
+👤 Toni
+
+👤 Toni
+
+👤 Sean
 
 - GitHub: [@githubhandle](https://github.com/SKopsap)
-- Twitter: [@twitterhandle](https://twitter.com/SKopsap)
 - LinkedIn: [LinkedIn](https://linkedin.com/seanknowlesmd)
-
-👤 **Author2**
 
 #### 🤝 Contributing
 
@@ -95,7 +100,7 @@ Feel free to check the [issues page](issues/).
 
 #### Show your support
 
-Give a ⭐️ if you like this project, every star means something for a junior developer show this team some love :)!
+Give a ⭐️ if you like this project, every star means something, show us some love :)!
 
 #### Acknowledgments
 
