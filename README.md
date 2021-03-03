@@ -13,7 +13,7 @@
 
 #### Live Site
 
-> [Spotify Clone Demo](https://strive-buildweek1-spotify-clone.netlify.app)
+> [Spotify Clone - Demo](https://strive-buildweek1-spotify-clone.netlify.app)
 
 #### Built With
 
