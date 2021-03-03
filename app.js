@@ -1,6 +1,4 @@
-console.log('--connected--')
-
-//shared component imports
+// shared component imports
 import { navbar } from './components/navbar.js'
 
 const state = {

@@ -9,7 +9,7 @@ function navbar(elementId) {
     homeRoutes: {
       home: 'index.html',
       artist: '/pages/artist.html',
-      album: '/pages/artist.html',
+      album: '/pages/album.html',
       logo: '../assets/Logo2.png'
     },
     isPages: false
@@ -22,9 +22,8 @@ function navbar(elementId) {
     }
   }
 
-  // test
+  // runs check
   pageDirCheck()
-  console.log(state.isPages)
 
   const template = `
      <nav class="d-flex flex-column justify-content-between pl-3">
@@ -82,7 +81,6 @@ function navbar(elementId) {
   `
 
   const selected = document.getElementById(elementId)
-  console.log(selected)
   selected.innerHTML = template
 }
 
