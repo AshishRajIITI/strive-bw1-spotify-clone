@@ -11,6 +11,10 @@
 
 > Each team member was assigned and took ownership of a page and also specific/bespoke app functionality to deliver consistent and reliable features improvements over a full 5 day period.
 
+#### Live Demo
+
+[Live Demo Link](https://strive-m2-d10-benchmark-gogcom.netlify.app/)
+
 #### Built With
 
 > Our technology stack for this project
@@ -37,13 +41,6 @@ depl  staging
 |      |/
 main  dev 
 ```
-
-#### Live Demo
-
-[Live Demo Link](https://strive-m2-d10-benchmark-gogcom.netlify.app/)
-
-
-To get a local copy up and running follow these simple example steps.
 
 ##### Git refresher guide
 
