@@ -1,5 +1,13 @@
+main {
+  position: relative;
+}
+
 h1 {
   color: lightpink;
+}
+
+nav {
+  z-index: 1;
 }
 
 .col.border {
@@ -10,7 +18,6 @@ h1 {
   height: 45vh;
   overflow: hidden;
   position: relative;
-  border: 1px dotted red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,12 +33,27 @@ h1 {
   height: 45vh;
 }
 
+main::after {
+  content: "";
+  border: 2px solid red;
+  display: inline-block;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(45%, #181818));
+  background: linear-gradient(transparent 0%, #181818 45%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
 .artist-wrapper {
   position: absolute;
   bottom: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  z-index: 1;
 }
 
 .header-tile-card {
@@ -136,5 +158,13 @@ button {
   font-size: 0.8rem;
   text-decoration: none;
   color: #6c757d;
+}
+
+#playbar {
+  z-index: 2;
+}
+
+#albums {
+  z-index: 1;
 }
 /*# sourceMappingURL=artist.css.map */
