@@ -44,7 +44,7 @@ main <----- dev <------ Freature (Ekow, Toni, Enrico & Sean)
 
 ```
 
-##### Git refresher guide
+##### Team Git refresher guide (before pushing and merging ;)
 
 - git pull - pulls latest changes from the remote upstream on whichever branch you are on
 - git branch - shows all local branches
