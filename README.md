@@ -65,7 +65,7 @@ Hope this guide helps :).
 
 #### Getting Started
 
-Git clone the repository to your local computer.
+Git clone the repository to your local computer, use LiveServer to view in development.
 
 #### Prerequisites
 
@@ -73,7 +73,7 @@ Visual Studio Code and LiveServer plugin for serving the index.html file in your
 
 #### Deployment
 
-Is live on netlify and can be viewed by following the demo link above
+Our 'Main' deployment branch is CI into netlify so any pushes to the main branch repo will auto publish to Netlify.
 
 #### Authors
 
