@@ -2,14 +2,14 @@ function navbar(elementId) {
   let state = {
     pageRoutes: {
       home: '../index.html',
-      artist: '/artist.html',
-      album: '/album.html',
+      artist: 'artist.html',
+      album: 'album.html',
       logo: '../assets/Logo2.png'
     },
     homeRoutes: {
       home: 'index.html',
-      artist: '/pages/artist.html',
-      album: '/pages/album.html',
+      artist: './pages/artist.html',
+      album: './pages/album.html',
       logo: '../assets/Logo2.png'
     },
     isPages: false
@@ -18,7 +18,9 @@ function navbar(elementId) {
   // checks the URL to see if it contains 'pages'
   function pageDirCheck() {
     if (window.location.href.indexOf('pages') > 0) {
-      state.isPages = !state.isPages
+      state.isPages = true
+    } else {
+      state.isPages = false
     }
   }
 
@@ -51,7 +53,7 @@ function navbar(elementId) {
                 </li>
                 <li>
                   <i class="fab fa-artstation"></i
-                  ><a href=""${
+                  ><a href="${
                     state.isPages
                       ? state.pageRoutes.artist
                       : state.homeRoutes.artist
