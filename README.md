@@ -33,19 +33,19 @@
 
 ```
               Testing staging
-              Develoepr branch
+              Development branch
                    ^
 Netlify            |
-Live Production    |
+Production         |
 Main branch        |
-^  <-------------- |\
+^  <-------------- |
 |                  | \
 |                  |  \
 |                  |   \ local feature branches merged into dev/staging for testing before being merged to main/production
 |                  |   / ex. branch: toni/header-img-fix     
 |                  |  /
 |                  | / 
-|                  |/
+|                  |
 main ------------ dev <------ freature branches (Ekow, Toni, Enrico & Sean)
 
 ```
