@@ -33,13 +33,15 @@
 - Local development feature branches for feature development.
 
 ```
-live
-depl  staging
-|      |
-|      |  
-|      | / local developer branches
-|      |/
-main  dev 
+
+Netlify     Testing
+production  staging
+^            ^
+|            |
+|            |  
+|            | / local developer branches
+|            |/
+main <----- dev <------ Freature (Ekow, Toni, Enrico & Sean)
 ```
 
 ##### Git refresher guide
