@@ -28,24 +28,28 @@ nav {
     margin-bottom: 2rem;
   }
 
-  a:hover {
-    color: white;
-    text-decoration: none;
-  }
-
   .menu-container {
     min-height: 80vh;
   }
 
   li {
     margin-bottom: 1.8rem;
+    color: #808080;
     cursor: pointer;
+  }
+
+  li:hover {
+    color: white;
+  }
+
+  li a:hover {
+    color: white;
+    text-decoration: none;
   }
 
   i {
     margin-right: 1rem;
     font-size: 1.8rem;
-    color: 2c2c2c;
   }
 
   .btn {
