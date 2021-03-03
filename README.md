@@ -30,7 +30,7 @@
 
 - Main branch for live production/deployment on netlify hosting.
 - Development branch for stanging and testing so any bugs being pushed don't go straight into production branch (main).
-- Local development feature branches for feature development.
+- Local development branches for feature development.
 
 ```
 Netlify     Testing
