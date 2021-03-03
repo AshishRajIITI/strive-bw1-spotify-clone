@@ -38,7 +38,7 @@
 Netlify            |
 Live Production    |
 Main branch        |
-^<---------------- |\
+^  <-------------- |\
 |                  | \
 |                  |  \
 |                  |   \ local feature branches merged into dev/staging for testing before being merged to main/production
