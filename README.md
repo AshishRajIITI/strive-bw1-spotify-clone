@@ -12,7 +12,7 @@
 
 #### Site
 
-> [Spotify Clone - Demo](https://strive-bw1-spotify-clone.netlify.app)
+> [Spotify Clone - live demo](https://strive-bw1-spotify-clone.netlify.app)
 
 #### Stack
 
