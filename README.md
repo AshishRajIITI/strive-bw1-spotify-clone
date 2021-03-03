@@ -4,6 +4,7 @@
 </div>
 <br>
 <br>
+
 #### BW1 Spotify Clone
 
 > Our very first build week project, a clone of the shopify web application.
