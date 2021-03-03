@@ -8,7 +8,7 @@
 > Our very first build week project, a clone of the shopify web application.
 <img width="500" alt="Spotify clone homepage" src="./assets/readme/screenshot1.PNG"> 
 
-> Each team member was assigned and took ownership in building a specific page of the site also to develop beskpoke dynamic and interactive app functionality.
+> Each team member took ownership of building a specific page and also in developing beskpoke dynamic interactivity.
 
 #### Site
 
