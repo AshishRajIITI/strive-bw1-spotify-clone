@@ -13,7 +13,7 @@
 
 #### Live Demo
 
-[Live Demo Link](https://strive-m2-d10-benchmark-gogcom.netlify.app/)
+[Link to Netlify demo](https://strive-m2-d10-benchmark-gogcom.netlify.app/)
 
 #### Built With
 
