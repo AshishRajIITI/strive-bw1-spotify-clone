@@ -65,7 +65,7 @@ Hope this guide helps :).
 
 #### Getting Started
 
-Git clone the repository and use live server or a simple server to serve the index.html in your browser, alternatively just open a browser and navigate to the cloned repo and launch index.html from there.
+Git clone the repository to your local computer.
 
 #### Prerequisites
 
