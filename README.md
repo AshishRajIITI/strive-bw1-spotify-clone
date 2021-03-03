@@ -14,12 +14,17 @@ Each team member was assigned and took ownership of a page and also specific/bes
 #### Built With
 
 - Major languages - HTML, CSS, Javascript(ES6)
-- Frameworks - Bootstrap5
-- Technologies - Netlify
+- Frameworks - Bootstrap4.6
+- Technologies - Netlify Hosting
+- Infrascrture - Github
 
 #### INFRASTRUCTURE
 
-Git development workflow as follows:  Main branch for live deployment on netlify, Development branch for stanging and testing, local development feature branches for feature development.
+Our git development workflow as follows: 
+
+- Main branch for live production/deployment on netlify hosting.
+- Development branch for stanging and testing so any bugs being pushed don't go straight into production branch (main).
+- Local development feature branches for feature development.
 
 ```
 live
