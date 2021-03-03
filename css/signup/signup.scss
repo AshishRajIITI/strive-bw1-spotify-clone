@@ -1,5 +1,3 @@
-//
-
 .container {
   width: 1000px;
 }
@@ -25,6 +23,7 @@ img {
 .btn-facebook {
   color: white;
   background-color: #3b5998;
+  border-color: #3b5998;
 }
 .btn-apple {
   color: white;
@@ -75,6 +74,45 @@ p:first-of-type {
 p:last-of-type {
   font-size: smaller;
 }
-p > a {
+
+.btn-sign-up:hover,
+.btn-sign-up:focus,
+.btn-sign-up:active {
+  background-color: #000000;
+  border-color: rgb(249, 249, 249);
+}
+.btn-sign-in:hover,
+.btn-sign-in:focus,
+.btn-sign-in:active {
+  background-color: #19d059;
+  border-color: rgb(249, 249, 249);
+}
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active {
+  background-color: #496dba;
+  border-color: rgb(249, 249, 249);
+}
+.btn-apple:hover,
+.btn-apple:focus,
+.btn-apple:active {
+  background-color: #2b2b2b;
+  border-color: rgb(249, 249, 249);
+}
+label.custom-control-label {
+  margin-top: 20px;
+}
+span > img {
+  max-width: 15px;
+  max-height: 15px;
+}
+.facebook {
+  fill: aqua;
+}
+p a {
   color: #1db954;
+}
+p a:hover {
+  color: #3bd06f;
+  text-decoration: none;
 }
