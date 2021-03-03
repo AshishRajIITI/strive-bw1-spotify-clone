@@ -60,10 +60,10 @@ main <----- dev <------ Freature (Ekow, Toni, Enrico & Sean)
 1. Always switch into dev every new session and pull latest changes (you could do the same for master, so you always have up to date master and dev branch)
 2. Create or switch to your own feature branch, don't work directly on dev/master/main (if not yet created, create a new feature branch from the latest dev branch)
 3. Remember before merging make sure you always update and pull latest changes on dev
-4. IMPORTANT, WHEN YOU MERGE YOUR FEATURE BRANCH INTO DEV AND YOU HAVE CONFLICTS DO NOT PUSH TO THE REMOTE, WE WILL RESOLVE THE CONFLICTS LOCALLY BEFORE CORRUPTING THE REMOTE DEV.
-5. If you succesfully manage to merge feature into an up to date dev branch with no conflicts then you can push the commits upstream.
+4. Important!!! Resolve any conflicts with your team mates if any arise while trying to merge your feature branch with the development branch.
+5. If you succesfully merge your feature branch with the current development branch and with no conflicts then you can push your features upstream to development origin.
 
-Hope this guide helps :).
+Happy coding future ex google, ex facebook tech leads ;)
 
 #### Getting Started
 
