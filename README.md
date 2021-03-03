@@ -33,7 +33,6 @@
 - Local development feature branches for feature development.
 
 ```
-
 Netlify     Testing
 production  staging
 ^            ^
@@ -42,7 +41,6 @@ production  staging
 |            | / local developer branches
 |            |/
 main <----- dev <------ Freature (Ekow, Toni, Enrico & Sean)
-
 
 ```
 
