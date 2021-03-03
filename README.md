@@ -31,13 +31,15 @@
 - Development branch for stanging and testing so any rough commits don't get pushed straight into production (main).
 - Local development branches for feature development.
 
-```
-              Testing staging
-              Development branch
-                   ^
-Netlify            |
-Production         |
-Main branch        |
+```            
+                             _______       _____                        
+                             ___    |      __  /___________ _______ ___ 
+                             __  /| |      _  __/  _ \  __ `/_  __ `__ \
+               Development   _  ___ |      / /_ /  __/ /_/ /_  / / / / /
+               Staging       /_/  |_|      \__/ \___/\__,_/ /_/ /_/ /_/ 
+                   |
+Production         |                        
+Main branch        |       
 ^  <-------------- |
 |                  |\
 |                  | \
