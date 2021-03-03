@@ -60,7 +60,7 @@ main <----- dev <------ Freature (Ekow, Toni, Enrico & Sean)
 2. Create or switch to your own feature branch, don't work directly on dev/master/main (if not yet created, create a new feature branch from the latest dev branch)
 3. Remember before merging make sure you always update and pull latest changes on dev
 4. Important!!! Resolve any conflicts with your team mates if any arise while trying to merge your feature branch with the development branch.
-5. If you manage to merge with no conflicts then you can push your awesome work upstream to the origin remote.
+5. If you manage to merge without conflicts then you can push your awesome work upstream to the origin remote.
 
 Happy coding future ex google, ex facebook tech leads ;)
 
