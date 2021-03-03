@@ -42,6 +42,8 @@ production  staging
 |            | / local developer branches
 |            |/
 main <----- dev <------ Freature (Ekow, Toni, Enrico & Sean)
+
+
 ```
 
 ##### Git refresher guide
