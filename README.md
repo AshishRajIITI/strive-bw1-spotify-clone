@@ -8,7 +8,7 @@
 > Our 1st team build week assignment and portfolio project which is a Spotify Clone
 <img width="500" alt="Spotify clone homepage" src="./assets/readme/screenshot1.PNG"> 
 
-> Each team member was assigned and took ownership to build a specific page and also interactive app functionality.
+> Each team member was assigned and took ownership to build a specific page and also to develop interactive app functionality.
 
 #### Live Site
 
