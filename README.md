@@ -18,7 +18,7 @@
 
 #### Stack
 
-> Our chosen stack for this project
+> Tools, libraries and awesome tech sanctioned for this project
 
 - Major languages - HTML, CSS, Javascript(ES6)
 - Frameworks - Bootstrap v4.6
