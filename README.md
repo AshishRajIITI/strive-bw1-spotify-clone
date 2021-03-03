@@ -2,7 +2,8 @@
 <div align="center" justify="center" style="text-align:center; -webkit-animation: rotate-90-cw 3s linear infinite both; animation: rotate-90-cw 3s linear infinite both">
   <pre> <img width="300" alt="Strive Logo" src="https://strive.school/assets/strive_black.png">       <img width="300" alt="Strive Logo" src="/assets/Logo1.png"> </pre>
 </div>
-
+<br>
+<br>
 #### BW1 Spotify Clone
 
 > Our very first build week project, a clone of the shopify web application.
