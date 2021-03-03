@@ -3,7 +3,6 @@
   <pre> <img width="300" alt="Strive Logo" src="https://strive.school/assets/strive_black.png">       <img width="300" alt="Strive Logo" src="/assets/Logo1.png"> </pre>
 </div>
 <br>
-<br>
 
 #### BW1 Spotify Clone
 
