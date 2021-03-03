@@ -30,7 +30,7 @@ nav {
 
 main::after {
   content: "";
-  border: 2px solid red;
+  // border: 2px solid red;
   display: inline-block;
   // background-color: #181818;
   // opacity: 0.7;
@@ -131,7 +131,20 @@ button {
   font-size: 0.8rem;
   text-decoration: none;
   color: #6c757d;
+  position: relative;
 }
+
+// .artist-footer a:hover::after {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   width: 2rem;
+//   // padding-left: 30%;
+//   // padding-right: 30%;
+//   // height: 100%;
+//   bottom: 0px;
+//   border: 1px solid red;
+// }
 
 #playbar {
   z-index: 2;
