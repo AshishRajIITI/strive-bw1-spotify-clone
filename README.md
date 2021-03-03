@@ -35,9 +35,12 @@
 Netlify     Testing
 production  staging
 ^            ^
-|            |
-|            |  
-|            | / local developer branches
+|            | \
+|            |  \
+|            |   \ 
+|            |   /   local developer feature branches merged into dev/staging for testing before being pushed to main/production
+|            |  /
+|            | / 
 |            |/
 main <----- dev <------ freature branches (Ekow, Toni, Enrico & Sean)
 
