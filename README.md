@@ -23,7 +23,7 @@
 - Technologies - Netlify Hosting & CDN
 - Infrastructure - Github CI
 
-#### Infrastructure
+#### Deployment workflow
 
 > Our git development workflow as follows: 
 
