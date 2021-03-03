@@ -1,5 +1,5 @@
 function navbar(elementId) {
-  let state = {
+  const state = {
     pageRoutes: {
       home: '../index.html',
       artist: 'artist.html',
@@ -28,8 +28,8 @@ function navbar(elementId) {
   pageDirCheck()
 
   const template = `
-     <nav class="d-flex flex-column justify-content-between pl-3">
-        <div class="container pl-3 mt-5">
+     <nav class="d-flex justify-content-between pl-3">
+        <div class="container nav-container pl-3 mt-5">
           <div
             class="d-flex flex-column justify-content-between menu-container"
           >
@@ -41,7 +41,7 @@ function navbar(elementId) {
                       ? state.pageRoutes.home
                       : state.homeRoutes.home
                   }">
-                    <img style="width: 150px" src="${
+                    <img src="${
                       state.isPages
                         ? state.pageRoutes.logo
                         : state.homeRoutes.logo
