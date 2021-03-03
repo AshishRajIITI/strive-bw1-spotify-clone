@@ -160,11 +160,46 @@ button {
   position: relative;
 }
 
-#playbar {
-  z-index: 2;
+h2 {
+  font-weight: 800;
 }
 
 #albums {
   z-index: 1;
+}
+
+.tile {
+  text-align: center;
+  border: 2px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 1rem;
+}
+
+.tile-body p {
+  margin: 0;
+}
+
+.tile-body p:first-of-type {
+  color: black;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.tile-body p:last-of-type {
+  color: #6c757d;
+  font-size: 0.8rem;
+}
+
+#playbar {
+  z-index: 2;
 }
 /*# sourceMappingURL=artist.css.map */
