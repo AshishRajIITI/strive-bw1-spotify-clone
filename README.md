@@ -9,9 +9,11 @@
 
 ![screenshot](./strive-m2-d2-netlify-app.png)
 
-Each team member was assigned and took ownership of a page and also specific/bespoke app functionality to deliver consistent and reliable features improvements over a full 5 day period.
+> Each team member was assigned and took ownership of a page and also specific/bespoke app functionality to deliver consistent and reliable features improvements over a full 5 day period.
 
 #### Built With
+
+> Our technology stack for this project
 
 - Major languages - HTML, CSS, Javascript(ES6)
 - Frameworks - Bootstrap4.6
@@ -20,7 +22,7 @@ Each team member was assigned and took ownership of a page and also specific/bes
 
 #### Infrastructure
 
-Our git development workflow as follows: 
+> Our git development workflow as follows: 
 
 - Main branch for live production/deployment on netlify hosting.
 - Development branch for stanging and testing so any bugs being pushed don't go straight into production branch (main).
