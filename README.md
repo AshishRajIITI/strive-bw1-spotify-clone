@@ -39,7 +39,7 @@ production  staging
 |            |  
 |            | / local developer branches
 |            |/
-main <----- dev <------ local developer freature branches (Ekow, Toni, Enrico & Sean)
+main <----- dev <------ freature branches (Ekow, Toni, Enrico & Sean)
 
 ```
 
