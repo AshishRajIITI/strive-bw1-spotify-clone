@@ -29,7 +29,7 @@
 > Our git development workflow as follows: 
 
 - Main branch for live production/deployment on netlify hosting.
-- Development branch for stanging and testing so any bugs being pushed don't go straight into production branch (main).
+- Development branch for stanging and testing so any rough commits don't get pushed straight into production (main).
 - Local development branches for feature development.
 
 ```
