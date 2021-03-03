@@ -16,7 +16,7 @@
 
 #### Built With
 
-> Our technology stack for this project
+> Our chosen stack for this project
 
 - Major languages - HTML, CSS, Javascript(ES6)
 - Frameworks - Bootstrap v4.6
