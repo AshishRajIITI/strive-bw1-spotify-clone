@@ -32,17 +32,21 @@
 - Local development branches for feature development.
 
 ```
-Netlify     Testing
-production  staging
-^            ^
-|            | \
-|            |  \
-|            |   \ 
-|            |   /   local developer feature branches merged into dev/staging for testing before being pushed to main/production
-|            |  /
-|            | / 
-|            |/
-main <----- dev <------ freature branches (Ekow, Toni, Enrico & Sean)
+              Testing staging
+              Develoepr branch
+                   ^
+                   |
+Live Production    |
+Main branch        |
+^<---------------- |\
+|                  | \
+|                  |  \
+|                  |   \ local developer feature branches merged into dev/staging for testing before being pushed to main/production
+|                  |   /      
+|                  |  /
+|                  | / 
+|                  |/
+main <------------ dev <------ freature branches (Ekow, Toni, Enrico & Sean)
 
 ```
 
