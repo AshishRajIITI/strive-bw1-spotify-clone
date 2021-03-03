@@ -13,7 +13,7 @@
 
 #### Live Site
 
-> [Link to demo](https://strive-m2-d10-benchmark-gogcom.netlify.app/)
+> [Spotify Clone Demo](https://strive-buildweek1-spotify-clone.netlify.app)
 
 #### Built With
 
