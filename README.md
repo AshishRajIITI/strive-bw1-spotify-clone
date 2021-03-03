@@ -3,13 +3,13 @@
   <img width="100" alt="Strive Logo" src="https://strive.school/assets/strive_logo02.png">
 </div>
 
-### Build Week 1 Portfolio Project - Spotify Clone
+#### Build Week 1 Portfolio Project - Spotify Clone
 
-> Our first Bootstrap5 project used to wet our feet using bootstraps standard components, no major frontend framework implemented, just a simple bootstrap one pager.
+> Our 1st team build week assignment and portfolio project which is a Spotify Clone
 
 ![screenshot](./strive-m2-d2-netlify-app.png)
 
-Standard boostrap5, used the CDN to serve the css and javascript, will implement a build process in the next project.
+Each team member was assigned and took ownership of a page and also specific/bespoke app functionality to deliver consistent and reliable features improvements over a full 5 day period.
 
 #### Built With
 
@@ -17,19 +17,31 @@ Standard boostrap5, used the CDN to serve the css and javascript, will implement
 - Frameworks - Bootstrap5
 - Technologies - Netlify
 
+#### INFRASTRUCTURE
+
+Git development infrascrture as follows
+
+```
+live
+depl  staging
+|      |
+|      |  
+|      | / local developer branches
+|      |/
+main  dev 
+```
+
 #### Live Demo
 
 [Live Demo Link](https://strive-m2-d10-benchmark-gogcom.netlify.app/)
 
 #### Getting Started
 
-**Git clone the repository and use live server or a simple server to serve the index.html in your browser, alternatively just open a browser and navigate to the cloned repo and launch index.html from there.**
+Git clone the repository and use live server or a simple server to serve the index.html in your browser, alternatively just open a browser and navigate to the cloned repo and launch index.html from there.**
 
 To get a local copy up and running follow these simple example steps.
 
-##### Git commit guide
-
-GIT commands refresher: 
+##### Git refresher guide
 
 - git pull - pulls latest changes from the remote upstream on whichever branch you are on
 - git branch - shows all local branches
