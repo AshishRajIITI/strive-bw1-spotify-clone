@@ -1,4 +1,6 @@
-console.log('app.js connected')
+console.log('--connected--')
+
+//shared component imports
 import { navbar } from './components/navbar.js'
 
 const state = {
@@ -12,5 +14,5 @@ const state = {
 }
 
 window.onload = function () {
-  navbar('navbar-injector')
+  navbar('sidenav')
 }
