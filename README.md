@@ -19,7 +19,7 @@ Each team member was assigned and took ownership of a page and also specific/bes
 
 #### INFRASTRUCTURE
 
-Git development infrascrture as follows
+Git development workflow as follows:  Main branch for live deployment on netlify, Development branch for stanging and testing, local development feature branches for feature development.
 
 ```
 live
