@@ -35,18 +35,18 @@
               Testing staging
               Develoepr branch
                    ^
-                   |
+Netlify            |
 Live Production    |
 Main branch        |
 ^<---------------- |\
 |                  | \
 |                  |  \
-|                  |   \ local developer feature branches merged into dev/staging for testing before being pushed to main/production
+|                  |   \ local feature branches merged into dev/staging for testing before being merged to main/production
 |                  |   /      
 |                  |  /
 |                  | / 
 |                  |/
-main <------------ dev <------ freature branches (Ekow, Toni, Enrico & Sean)
+main ------------ dev <------ freature branches (Ekow, Toni, Enrico & Sean)
 
 ```
 
