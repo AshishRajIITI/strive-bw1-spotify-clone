@@ -5,7 +5,7 @@
 
 #### BW1 Spotify Clone
 
-> Our 1st team build week assignment and portfolio project which is a Spotify Clone
+> Our very first build week project, a clone of the shopify web application.
 <img width="500" alt="Spotify clone homepage" src="./assets/readme/screenshot1.PNG"> 
 
 > Each team member was assigned and took ownership to build a specific page and also to develop interactive app functionality.
