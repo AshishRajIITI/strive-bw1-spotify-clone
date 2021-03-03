@@ -1,6 +1,6 @@
 
 <div align="center" justify="center" style="text-align:center; -webkit-animation: rotate-90-cw 3s linear infinite both; animation: rotate-90-cw 3s linear infinite both">
-  <img width="100" alt="Strive Logo" src="https://strive.school/assets/strive_black.png">      <img width="300" alt="Strive Logo" src="/assets/Logo1.png"> 
+  <img width="300" alt="Strive Logo" src="https://strive.school/assets/strive_black.png">      <img width="300" alt="Strive Logo" src="/assets/Logo1.png"> 
 </div>
 
 
