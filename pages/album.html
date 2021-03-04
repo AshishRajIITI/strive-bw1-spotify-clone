@@ -238,53 +238,65 @@
     </main>
 
     <!-- playbar -->
+    <footer>
+      <div id="playbar">
+        <table class="container-fluid">
+          <tr>
+            <td class="player text-white" width="90px">
+              <img src="/assets/queen-thumbnail.jpg" width="90px" />
+            </td>
+            <td class="player text-white mt-4" width="33%">
+              Father to Son
+              <i class="fas fa-heart mx-4"></i>
+              <br />
+              <span class="text-muted" style="font-size: smaller">Queen</span>
+            </td>
 
-    <div id="playbar">
-      <table class="container-fluid">
-        <tr>
-          <td class="player text-white" width="90px">
-            <img src="/assets/queen-thumbnail.jpg" width="90px" />
-          </td>
-          <td class="player text-white mt-4" width="33%">
-            Father to Son
-            <i class="fas fa-heart mx-4"></i>
-            <br />
-            <span class="text-muted" style="font-size: smaller">Queen</span>
-          </td>
+            <!-- player buttons -->
+            <td
+              class="player text-white"
+              width="40%"
+              style="text-align: center"
+            >
+              <ion-icon class="mx-4" name="shuffle-outline"></ion-icon>
+              <ion-icon
+                class="mx-4"
+                name="play-skip-back-circle-outline"
+              ></ion-icon>
 
-          <!-- player buttons -->
-          <td class="player text-white" width="40%" style="text-align: center">
-            <ion-icon class="mx-4" name="shuffle-outline"></ion-icon>
-            <ion-icon
-              class="mx-4"
-              name="play-skip-back-circle-outline"
-            ></ion-icon>
+              <ion-icon class="mx-2" name="pause-circle-outline"></ion-icon>
 
-            <ion-icon class="mx-2" name="pause-circle-outline"></ion-icon>
+              <ion-icon
+                class="mx-4"
+                name="play-skip-forward-circle-outline"
+              ></ion-icon>
+              <ion-icon class="mx-3" name="repeat-outline"></ion-icon>
+              <input
+                type="range"
+                min="1"
+                max="100"
+                value="30"
+                class="slider mx-3"
+                id="myRange-musicPlay"
+              />
+            </td>
+            <td
+              class="player text-white"
+              width="33%"
+              style="text-align: center"
+            >
+              <ion-icon style="margin: 0 20px" name="albums-outline"></ion-icon>
+              <ion-icon name="volume-high-outline"></ion-icon>
+              <input style="font-size: 60px; vertical-align: super" type="range"
+              min="1" max="100" value="50" class="slider mx-2"
+              id="myRange-volume"
+            </td>
+          </tr>
+        </table>
+      </div>
+    </footer>
 
-            <ion-icon
-              class="mx-4"
-              name="play-skip-forward-circle-outline"
-            ></ion-icon>
-            <ion-icon class="mx-3" name="repeat-outline"></ion-icon>
-            <input
-              type="range"
-              min="1"
-              max="100"
-              value="30"
-              class="slider mx-3"
-              id="myRange-musicPlay"
-            />
-          </td>
-          <td class="player text-white" width="33%" style="text-align: center">
-            <ion-icon style="margin: 0 20px" name="albums-outline"></ion-icon>
-            <ion-icon name="volume-high-outline"></ion-icon>
-            <input style="font-size: 60px; vertical-align: super" type="range"
-            min="1" max="100" value="50" class="slider mx-2" id="myRange-volume"
-          </td>
-        </tr>
-      </table>
-    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
