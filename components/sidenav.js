@@ -4,12 +4,14 @@ function sidenav(elementId) {
       home: '../index.html',
       artist: 'artist.html',
       album: 'album.html',
+      signup: 'signup.html',
       logo: '../assets/Logo2.png'
     },
     homeRoutes: {
       home: 'index.html',
       artist: './pages/artist.html',
       album: './pages/album.html',
+      signup: '/pages/signup.html',
       logo: '../assets/Logo2.png'
     },
     isPages: false
@@ -71,10 +73,18 @@ function sidenav(elementId) {
             </div>
             <div class="d-flex flex-column justify-content-center">
               <button type="button" class="btn btn-light btn-signup mb-3">
-                <a href="./pages/signup.html">SIGN UP</a>
+                <a href="${
+                  state.isPages
+                    ? state.pageRoutes.signup
+                    : state.homeRoutes.signup
+                }">SIGN UP</a>
               </button>
               <button type="button" class="btn btn-light btn-login mb-3">
-                <a href="./pages/signup.html">LOGIN</a>
+                <a href="${
+                  state.isPages
+                    ? state.pageRoutes.signup
+                    : state.homeRoutes.signup
+                }">LOGIN</a>
               </button>
             </div>
           </div>

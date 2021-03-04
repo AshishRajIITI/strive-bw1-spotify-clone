@@ -121,7 +121,8 @@ footer i {
 }
 
 @media screen and (max-width: 768px) {
-  #sidenav {
+  #sidenav,
+  #desktop-footer-container {
     display: none;
   }
 }
