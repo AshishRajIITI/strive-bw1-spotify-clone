@@ -96,8 +96,8 @@ nav .btn-login:hover {
 }
 
 footer {
-  left: 0;
-  bottom: 0;
+  left: 0px;
+  bottom: 0px;
   width: 100%;
   height: 100px;
   position: fixed;
@@ -120,59 +120,73 @@ footer i {
   font-size: 1.4rem;
 }
 
-footer .album-name {
+@media screen and (max-width: 768px) {
+  #sidenav,
+  #desktop-footer-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #mobile-footer-container,
+  #mobile-navbar {
+    display: none;
+  }
+}
+
+.album-name {
   font-size: 12px;
   color: gray;
 }
 
-footer .track-time {
+.track-time {
   font-size: 11px;
   color: gray;
   width: 100px;
 }
 
-footer .track-list,
-footer .album-track {
+.track-list,
+.album-track {
   font-size: 0.8rem;
   color: #fff;
 }
 
-footer .fa-heart,
-footer .fa-ellipsis-h {
+.fa-heart,
+.fa-ellipsis-h {
   color: #fff;
 }
 
-footer .btn-success {
+.btn-success {
   background-color: #1db954;
 }
 
-footer .icon-box {
+.icon-box {
   width: 10px;
   color: #fff;
 }
 
-footer .album-track {
+.album-track {
   width: auto;
 }
 
-footer table {
+table {
   border-spacing: 10px;
   border-collapse: separate;
   margin: auto;
 }
 
 @media only screen and (max-width: 991px) {
-  footer .ablum-cover-section {
+  .ablum-cover-section {
     margin: auto;
   }
 }
 
-footer .player-buttons-play,
-footer .player-buttons-volume {
+.player-buttons-play,
+.player-buttons-volume {
   font-size: 32px;
 }
 
-footer .slider {
+.slider {
   -webkit-appearance: none;
   width: 20%;
   height: 25px;
@@ -186,7 +200,7 @@ footer .slider {
   transition: opacity 0.2s;
 }
 
-footer .slider::-webkit-slider-thumb {
+.slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 15px;
@@ -196,20 +210,7 @@ footer .slider::-webkit-slider-thumb {
   cursor: pointer;
 }
 
-footer #myRange-musicPlay {
+#myRange-musicPlay {
   width: 400px;
-}
-
-@media screen and (max-width: 768px) {
-  #sidenav,
-  #desktop-footer-container {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  #mobile-footer-container {
-    display: none;
-  }
 }
 /*# sourceMappingURL=global.css.map */
