@@ -1,8 +1,6 @@
 main {
   position: relative;
   background-color: #181818;
-  -webkit-transform: translateY(-125px);
-          transform: translateY(-125px);
 }
 
 h1 {
@@ -157,6 +155,10 @@ button {
   text-decoration: none;
   color: #6c757d;
   position: relative;
+}
+
+#albums {
+  margin-bottom: 125px;
 }
 
 h2 {
