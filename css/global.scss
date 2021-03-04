@@ -120,6 +120,13 @@ footer {
   i {
     font-size: 1.4rem;
   }
+
+  #mobile-playbar {
+    border-bottom: 2px rgb(39, 39, 39) solid;
+    ion-icon {
+      cursor: pointer;
+    }
+  }
 }
 
 // Global media queiries

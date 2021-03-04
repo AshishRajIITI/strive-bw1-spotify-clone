@@ -1,4 +1,5 @@
 // shared component imports
+import { footer } from './components/footer.js'
 import { sidenav } from './components/sidenav.js'
 
 const state = {
@@ -13,4 +14,5 @@ const state = {
 
 window.onload = function () {
   sidenav('sidenav')
+  footer('footer')
 }

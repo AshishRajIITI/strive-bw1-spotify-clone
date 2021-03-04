@@ -121,6 +121,14 @@ footer i {
   font-size: 1.4rem;
 }
 
+footer #mobile-playbar {
+  border-bottom: 2px #272727 solid;
+}
+
+footer #mobile-playbar ion-icon {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
   #sidenav,
   #desktop-footer-container {
