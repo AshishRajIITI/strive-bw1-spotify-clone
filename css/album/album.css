@@ -109,7 +109,7 @@ table {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #444444;
+  background: rgb(68, 68, 68);
   cursor: pointer;
 }
 
