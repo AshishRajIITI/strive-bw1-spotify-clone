@@ -10,6 +10,8 @@ body {
 
 .ablum-cover-section {
   text-align: center;
+  margin-left: 30px;
+  margin-right: 40px;
 }
 
 button {
@@ -27,16 +29,12 @@ button {
 h3 {
   font-weight: bold;
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 p {
   font-size: x-small;
   color: gray;
-}
-
-.album-tracks-section {
-  height: 900px;
 }
 
 .album-name {
@@ -64,16 +62,25 @@ p {
   background-color: #1db954;
 }
 
-table {
-  width: 75vw;
-}
-
 .icon-box {
   width: 10px;
   color: #fff;
 }
 
-.track-time {
-  width: 80px;
+.album-track {
+  width: auto;
 }
+
+table {
+  border-spacing: 10px;
+  border-collapse: separate;
+  margin: auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .ablum-cover-section {
+    margin: auto;
+  }
+}
+
 /*# sourceMappingURL=album.css.map */

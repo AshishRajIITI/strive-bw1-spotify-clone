@@ -1,35 +1,58 @@
-
-<div align="center" style="text-align:center; -webkit-animation: rotate-90-cw 3s linear infinite both; animation: rotate-90-cw 3s linear infinite both">
-  <img width="100" alt="Strive Logo" src="https://strive.school/assets/strive_logo02.png">
+<div align="center" justify="center" style="text-align:center; -webkit-animation: rotate-90-cw 3s linear infinite both; animation: rotate-90-cw 3s linear infinite both">
+  <pre> <img width="300" alt="Strive Logo" src="https://strive.school/assets/strive_black.png">       <img width="300" alt="Strive Logo" src="/assets/Logo1.png"> </pre>
 </div>
+<br>
 
-## Build Week 1 Portfolio Project - Spotify Clone
+#### BW1 Spotify Clone
 
-> Our first Bootstrap5 project used to wet our feet using bootstraps standard components, no major frontend framework implemented, just a simple bootstrap one pager.
+> Our first build week project - a clone of the Spotify Web App.
+<img width="500" alt="Spotify clone homepage" src="./assets/readme/screenshot1.PNG"> 
 
-![screenshot](./strive-m2-d2-netlify-app.png)
+> Each team member took ownership of building a specific page and also in developing beskpoke dynamic interactivity.
 
-Standard boostrap5, used the CDN to serve the css and javascript, will implement a build process in the next project.
+#### Site
 
-## Built With
+> [Spotify Clone - live demo](https://strive-bw1-spotify-clone.netlify.app)
+
+#### Stack
+
+> Tools, libraries and awesome tech sanctioned for this project
 
 - Major languages - HTML, CSS, Javascript(ES6)
-- Frameworks - Bootstrap5
-- Technologies - Netlify
+- Frameworks - Bootstrap v4.6
+- Technologies - Netlify Hosting & CDN
+- Infrastructure - Github CI
 
-## Live Demo
+#### Devops
 
-[Live Demo Link](https://strive-m2-d10-benchmark-gogcom.netlify.app/)
+> Our git development workflow as follows: 
 
-## Getting Started
+- Main branch for live production/deployment on netlify hosting.
+- Development branch for stanging and testing so any rough commits don't get pushed straight into production (main).
+- Local development branches for feature development.
 
-**Git clone the repository and use live server or a simple server to serve the index.html in your browser, alternatively just open a browser and navigate to the cloned repo and launch index.html from there.**
+```            
+                             _______       _____                        
+                             ___    |      __  /___________ _______ ___ 
+                             __  /| |      _  __/  _ \  __ `/_  __ `__ \
+               Development   _  ___ |      / /_ /  __/ /_/ /_  / / / / /
+               Staging       /_/  |_|      \__/ \___/\__,_/ /_/ /_/ /_/ 
+                   ^
+Production         |                        
+Main branch        |       
+^  <-------------- |
+|                  |\
+|                  | \
+|                  |  \  local feature branches merged into dev/staging for  
+|                  |  /  testing before being merged to main/production   
+|                  | /   ex. branch: toni/header-img-fix  
+|                  |/ 
+|                  |
+main ------------ dev <------> freature branches (Ekow, Toni, Enrico & Sean)
 
-To get a local copy up and running follow these simple example steps.
+```
 
-### COMMITTING GUIDE
-
-GIT command instruction refresher: 
+##### Team Git refresher guide (before pushing and merging ;)
 
 - git pull - pulls latest changes from the remote upstream on whichever branch you are on
 - git branch - shows all local branches
@@ -45,49 +68,56 @@ GIT command instruction refresher:
 1. Always switch into dev every new session and pull latest changes (you could do the same for master, so you always have up to date master and dev branch)
 2. Create or switch to your own feature branch, don't work directly on dev/master/main (if not yet created, create a new feature branch from the latest dev branch)
 3. Remember before merging make sure you always update and pull latest changes on dev
-4. IMPORTANT, WHEN YOU MERGE YOUR FEATURE BRANCH INTO DEV AND YOU HAVE CONFLICTS DO NOT PUSH TO THE REMOTE, WE WILL RESOLVE THE CONFLICTS LOCALLY BEFORE CORRUPTING THE REMOTE DEV.
-5. If you succesfully manage to merge feature into an up to date dev branch with no conflicts then you can push the commits upstream.
+4. Important!!! Resolve any conflicts with your team mates if any arise while trying to merge your feature branch with the development branch.
+5. If you manage to merge without conflicts then you can push your awesome work upstream to the origin remote.
 
-Hope this guide helps :).
+Happy coding future ex google, ex facebook tech leads ;)
 
-### Prerequisites
+#### Getting Started
 
-### Setup
+Git clone the repository to your local computer, use LiveServer to view in development.
 
-### Install
+#### Prerequisites
 
-### Usage
+Visual Studio Code and LiveServer plugin for serving the index.html file in your local browser.
 
-### Run tests
+#### Deployment
 
-### Deployment
+Our 'Main' deployment branch is CI into netlify so any pushes to the main branch will auto publish to Netlify hosting and edge CDN.
 
-## Authors
+#### Team
 
-👤 **Author1**
+
+
+👤 Ekow
+
+👤 Toni
+
+👤 Toni
+
+👤 Sean
 
 - GitHub: [@githubhandle](https://github.com/SKopsap)
-- Twitter: [@twitterhandle](https://twitter.com/SKopsap)
 - LinkedIn: [LinkedIn](https://linkedin.com/seanknowlesmd)
 
-👤 **Author2**
-
-## 🤝 Contributing
+#### 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
-## Show your support
+#### Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project, every star means something, show us some love :)!
 
-## Acknowledgments
+#### Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+To our Strive mentors:
 
-## 📝 License
+- Luis
+- Stefano
+- Tatiana
 
-This project is [MIT](lic.url) licensed.
+#### 📝 License
+
+No need, this is freely available.
