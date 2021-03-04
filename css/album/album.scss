@@ -1,5 +1,6 @@
 h1 {
   color: lightcoral;
+}
 
 body {
   margin: 0;
@@ -9,6 +10,8 @@ body {
 
 .ablum-cover-section {
   text-align: center;
+  margin-left: 30px;
+  margin-right: 40px;
 }
 
 button {
@@ -26,16 +29,12 @@ button {
 h3 {
   font-weight: bold;
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 p {
   font-size: x-small;
   color: gray;
-}
-
-.album-tracks-section {
-  height: 900px;
 }
 
 .album-name {
@@ -46,6 +45,7 @@ p {
 .track-time {
   font-size: 11px;
   color: gray;
+  width: 100px;
 }
 
 .track-list,
@@ -63,19 +63,60 @@ p {
   background-color: #1db954;
 }
 
-table {
-  width: 75vw;
-}
-
 .icon-box {
   width: 10px;
   color: #fff;
 }
 
-.track-time{
-  width: 80px;
-};
-
-.album-page {
-  width: 200px;
+.album-track {
+  width: auto;
 }
+
+table {
+  border-spacing: 10px;
+  border-collapse: separate;
+  margin: auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .ablum-cover-section {
+    margin: auto;
+  }
+}
+
+.player-buttons-play,
+.player-buttons-volume {
+  font-size: 32px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 20%;
+  height: 25px;
+  background: #d3d3d3;
+  height: 5px;
+  outline: none;
+  border-radius: 5px;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgb(68, 68, 68);
+  cursor: pointer;
+}
+
+#myRange-musicPlay {
+  width: 400px;
+}
+
+#playbar .player {
+  /* border: 1px solid gray; */
+}
+/*# sourceMappingURL=album.css.map */
