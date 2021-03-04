@@ -158,15 +158,16 @@ button {
 }
 
 #mobile-header {
-  position: absolute;
+  display: none;
 }
 
-#artist-btn-shuffle {
-  background-color: #2ed760;
+#pop {
+  display: none;
 }
 
 #albums {
   margin-bottom: 125px;
+  text-align: center;
 }
 
 h2 {
@@ -193,6 +194,11 @@ h2 {
 
 .card {
   margin-bottom: 0.5rem;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 200px;
+  max-height: 200px;
+  cursor: pointer;
 }
 
 .tile-body {
@@ -227,17 +233,8 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .tile-body p:last-of-type {
-    display: none;
-  }
-  #header {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .artist-wrapper {
-    display: none;
-  }
+.muted {
+  color: #6c757d;
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=artist.css.map */
