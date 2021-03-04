@@ -1,5 +1,5 @@
 // shared component imports
-import { navbar } from './components/navbar.js'
+import { sidenav } from './components/sidenav.js'
 
 const state = {
   user: {
@@ -12,5 +12,5 @@ const state = {
 }
 
 window.onload = function () {
-  navbar('sidenav')
+  sidenav('sidenav')
 }

@@ -1,4 +1,4 @@
-function navbar(elementId) {
+function sidenav(elementId) {
   const state = {
     pageRoutes: {
       home: '../index.html',
@@ -86,4 +86,4 @@ function navbar(elementId) {
   selected.innerHTML = template
 }
 
-export { navbar }
+export { sidenav }
