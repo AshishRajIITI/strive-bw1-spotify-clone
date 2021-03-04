@@ -141,6 +141,14 @@ button {
 //   border: 1px solid red;
 // }
 
+#mobile-header {
+  position: absolute;
+}
+
+#artist-btn-shuffle {
+  background-color: #2ed760;
+}
+
 #albums {
   margin-bottom: 125px;
 }
@@ -202,6 +210,14 @@ h2 {
 
 @media only screen and (max-width: 768px) {
   .tile-body p:last-of-type {
+    display: none;
+  }
+
+  #header {
+    align-items: center;
+  }
+
+  .artist-wrapper {
     display: none;
   }
 }
