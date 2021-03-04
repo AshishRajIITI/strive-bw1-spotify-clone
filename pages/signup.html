@@ -60,7 +60,7 @@
                 </div>
                 </div>
                 <div class="col">
-                <button id="Sign-in" class="btn btn-lg btn-sign-in btn-block text-uppercase mt-4" type="submit">Sign in</button>
+                  <a class="btn-sign-in" id="Sign-in" href="../index.html"><span class="btn btn-lg btn-sign-in btn-block text-uppercase mt-4" type="submit" >Sign in</span></a>
                 
                 </div>
                 </div>
@@ -95,10 +95,11 @@
       crossorigin="anonymous"
     ></script>
     <script type="text/javascript"> 
+
     const inpEmail = document.getElementById("inputEmail")
     const inpPsw = document.getElementById("inputPassword")
     const signIn = document.getElementById("Sign-in")
-
+    const button = document.getElementById('Sign-in')
     
     signIn.onclick = function () {
       let email = inpEmail.value;
@@ -109,9 +110,11 @@
     if (email && password) {
       localStorage.setItem(email,password);
       location.reload();
+      
     }
-  }
     
+  }
+
  
       </script>
   </body>

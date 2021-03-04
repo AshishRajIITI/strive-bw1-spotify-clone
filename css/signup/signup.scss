@@ -89,6 +89,7 @@ p:last-of-type {
   background-color: #19d059;
   border-color: rgb(249, 249, 249);
   color: white;
+  text-decoration: none;
 }
 .btn-facebook:hover,
 .btn-facebook:focus,
@@ -118,5 +119,8 @@ p a {
 }
 p a:hover {
   color: #3bd06f;
+  text-decoration: none;
+}
+div a {
   text-decoration: none;
 }
