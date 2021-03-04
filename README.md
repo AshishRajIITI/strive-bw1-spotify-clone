@@ -1,29 +1,29 @@
-
 <div align="center" justify="center" style="text-align:center; -webkit-animation: rotate-90-cw 3s linear infinite both; animation: rotate-90-cw 3s linear infinite both">
   <pre> <img width="300" alt="Strive Logo" src="https://strive.school/assets/strive_black.png">       <img width="300" alt="Strive Logo" src="/assets/Logo1.png"> </pre>
 </div>
+<br>
 
 #### BW1 Spotify Clone
 
-> Our very first build week project, a clone of the shopify web application.
+> Our first build week project - a clone of the Spotify Web App.
 <img width="500" alt="Spotify clone homepage" src="./assets/readme/screenshot1.PNG"> 
 
 > Each team member took ownership of building a specific page and also in developing beskpoke dynamic interactivity.
 
 #### Site
 
-> [Spotify Clone - Demo](https://strive-bw1-spotify-clone.netlify.app)
+> [Spotify Clone - live demo](https://strive-bw1-spotify-clone.netlify.app)
 
 #### Stack
 
-> Our chosen stack for this project
+> Tools, libraries and awesome tech sanctioned for this project
 
 - Major languages - HTML, CSS, Javascript(ES6)
 - Frameworks - Bootstrap v4.6
 - Technologies - Netlify Hosting & CDN
 - Infrastructure - Github CI
 
-#### Infrastructure
+#### Devops
 
 > Our git development workflow as follows: 
 
@@ -31,15 +31,24 @@
 - Development branch for stanging and testing so any rough commits don't get pushed straight into production (main).
 - Local development branches for feature development.
 
-```
-Netlify     Testing
-production  staging
-^            ^
-|            |
-|            |  
-|            | / local developer branches
-|            |/
-main <----- dev <------ freature branches (Ekow, Toni, Enrico & Sean)
+```            
+                             _______       _____                        
+                             ___    |      __  /___________ _______ ___ 
+                             __  /| |      _  __/  _ \  __ `/_  __ `__ \
+               Development   _  ___ |      / /_ /  __/ /_/ /_  / / / / /
+               Staging       /_/  |_|      \__/ \___/\__,_/ /_/ /_/ /_/ 
+                   ^
+Production         |                        
+Main branch        |       
+^  <-------------- |
+|                  |\
+|                  | \
+|                  |  \  local feature branches merged into dev/staging for  
+|                  |  /  testing before being merged to main/production   
+|                  | /   ex. branch: toni/header-img-fix  
+|                  |/ 
+|                  |
+main ------------ dev <------> freature branches (Ekow, Toni, Enrico & Sean)
 
 ```
 
