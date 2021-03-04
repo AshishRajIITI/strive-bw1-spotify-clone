@@ -1,5 +1,5 @@
 .container {
-  width: 1000px;
+  width: 500px;
 }
 
 img {
@@ -72,6 +72,7 @@ main > div > img {
 .btn-sign-in {
   background-color: #1db954;
   border-color: #1db954;
+  color: white;
 }
 
 p:first-of-type {
@@ -94,6 +95,7 @@ p:last-of-type {
 .btn-sign-up:active {
   background-color: #000000;
   border-color: #f9f9f9;
+  color: white;
 }
 
 .btn-sign-in:hover,
@@ -101,6 +103,7 @@ p:last-of-type {
 .btn-sign-in:active {
   background-color: #19d059;
   border-color: #f9f9f9;
+  color: white;
 }
 
 .btn-facebook:hover,
@@ -108,6 +111,7 @@ p:last-of-type {
 .btn-facebook:active {
   background-color: #496dba;
   border-color: #f9f9f9;
+  color: white;
 }
 
 .btn-apple:hover,
@@ -115,11 +119,13 @@ p:last-of-type {
 .btn-apple:active {
   background-color: #2b2b2b;
   border-color: #f9f9f9;
+  color: white;
 }
 
 span > img {
   max-width: 15px;
   max-height: 15px;
+  margin: 5px;
 }
 
 .facebook {

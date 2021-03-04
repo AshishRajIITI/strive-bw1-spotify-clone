@@ -1,5 +1,5 @@
 .container {
-  width: 1000px;
+  width: 500px;
 }
 img {
   max-width: 200px;
@@ -59,6 +59,7 @@ main > div > img {
 .btn-sign-in {
   background-color: #1db954;
   border-color: #1db954;
+  color: white;
 }
 
 p:first-of-type {
@@ -80,29 +81,34 @@ p:last-of-type {
 .btn-sign-up:active {
   background-color: #000000;
   border-color: rgb(249, 249, 249);
+  color: white;
 }
 .btn-sign-in:hover,
 .btn-sign-in:focus,
 .btn-sign-in:active {
   background-color: #19d059;
   border-color: rgb(249, 249, 249);
+  color: white;
 }
 .btn-facebook:hover,
 .btn-facebook:focus,
 .btn-facebook:active {
   background-color: #496dba;
   border-color: rgb(249, 249, 249);
+  color: white;
 }
 .btn-apple:hover,
 .btn-apple:focus,
 .btn-apple:active {
   background-color: #2b2b2b;
   border-color: rgb(249, 249, 249);
+  color: white;
 }
 
 span > img {
   max-width: 15px;
   max-height: 15px;
+  margin: 5px;
 }
 .facebook {
   fill: aqua;

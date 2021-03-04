@@ -30,7 +30,7 @@ nav {
 
 main::after {
   content: "";
-  border: 2px solid red;
+  // border: 2px solid red;
   display: inline-block;
   // background-color: #181818;
   // opacity: 0.7;
@@ -131,12 +131,53 @@ button {
   font-size: 0.8rem;
   text-decoration: none;
   color: #6c757d;
+  position: relative;
 }
 
-#playbar {
-  z-index: 2;
+// .artist-footer a:hover::after {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   width: 2rem;
+//   // padding-left: 30%;
+//   // padding-right: 30%;
+//   // height: 100%;
+//   bottom: 0px;
+//   border: 1px solid red;
+// }
+
+h2 {
+  font-weight: 800;
 }
 
 #albums {
   z-index: 1;
+}
+
+.tile {
+  text-align: center;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.tile-body p {
+  margin: 0;
+}
+
+.tile-body p:first-of-type {
+  color: black;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.tile-body p:last-of-type {
+  color: #6c757d;
+  font-size: 0.8rem;
+}
+
+#playbar {
+  z-index: 2;
 }
