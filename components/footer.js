@@ -1,4 +1,8 @@
-function footer(elementId) {
+function footer(elementId, routes, currentRoute) {
+  // checks the URL to see if it contains 'pages'
+  // runs check
+  currentRoute('pages')
+
   const template = `
   <div id="desktop-footer-container">
   <!-- PLAYBAR DESKTOP VIEW CODE -->
@@ -26,11 +30,14 @@ function footer(elementId) {
           name="play-skip-back-circle-outline"
         ></ion-icon>
 
+
+        <a style="background-color: none;" class="playback-button p-0 m-0">
         <ion-icon
           class="mx-2"
           size="large"
           name="pause-circle-outline"
         ></ion-icon>
+        </a>
 
         <ion-icon
           class="mx-4"
@@ -75,11 +82,13 @@ function footer(elementId) {
       </div>
       <div class="col-8 pb-1 text-center">Queen another...</div>
       <div class="col-2 text-right">
+      <a style="background-color: none;" class="playback-button p-0 m-0">
         <ion-icon
           size="large"
           class="mx-2"
           name="pause-circle-outline"
         ></ion-icon>
+        </a>
       </div>
     </div>
   </div>
@@ -87,7 +96,11 @@ function footer(elementId) {
   <div id="mobile-navbar">
     <div class="d-flex justify-content-around align-items-baseline">
       <div class="d-flex flex-column align-items-center">
-        <a class="text-center" href="index.html">
+        <a class="text-center" href="${
+          routes.matchingString
+            ? routes.pageRoutes.home
+            : routes.homeRoutes.home
+        }">
           <i class="bi bi-house-door"></i><br />Home</a
         >
       </div>
@@ -97,13 +110,21 @@ function footer(elementId) {
         >
       </div>
       <div class="d-flex flex-column align-items-center">
-        <a class="text-center" href="./pages/artist.html">
+        <a class="text-center" href="${
+          routes.matchingString
+            ? routes.pageRoutes.artist
+            : routes.homeRoutes.artist
+        }">
           <i class="fab fa-artstation"></i><br />
           Artist</a
         >
       </div>
       <div class="d-flex flex-column align-items-center">
-        <a class="text-center" href="./pages/album.html">
+        <a class="text-center" href="${
+          routes.matchingString
+            ? routes.pageRoutes.album
+            : routes.homeRoutes.album
+        }">
           <i class="fas fa-compact-disc"></i><br />
           Album</a
         >

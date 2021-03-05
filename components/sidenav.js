@@ -1,33 +1,7 @@
-function sidenav(elementId) {
-  const state = {
-    pageRoutes: {
-      home: '../index.html',
-      artist: 'artist.html',
-      album: 'album.html',
-      signup: 'signup.html',
-      logo: '../assets/Logo2.png'
-    },
-    homeRoutes: {
-      home: 'index.html',
-      artist: './pages/artist.html',
-      album: './pages/album.html',
-      signup: '/pages/signup.html',
-      logo: '../assets/Logo2.png'
-    },
-    isPages: false
-  }
-
+function sidenav(elementId, routes, currentRoute) {
   // checks the URL to see if it contains 'pages'
-  function pageDirCheck() {
-    if (window.location.href.indexOf('pages') > 0) {
-      state.isPages = true
-    } else {
-      state.isPages = false
-    }
-  }
-
   // runs check
-  pageDirCheck()
+  currentRoute('pages')
 
   const template = `
      <nav class="d-flex justify-content-between pl-3">
@@ -39,14 +13,14 @@ function sidenav(elementId) {
               <ul class="list-unstyled">
                 <li>
                   <a href="${
-                    state.isPages
-                      ? state.pageRoutes.home
-                      : state.homeRoutes.home
+                    routes.matchingString
+                      ? routes.pageRoutes.home
+                      : routes.homeRoutes.home
                   }">
                     <img src="${
-                      state.isPages
-                        ? state.pageRoutes.logo
-                        : state.homeRoutes.logo
+                      routes.matchingString
+                        ? routes.pageRoutes.logo
+                        : routes.homeRoutes.logo
                     }" alt="" />
                   </a>
                 </li>
@@ -56,36 +30,32 @@ function sidenav(elementId) {
                 <li>
                   <i class="fab fa-artstation"></i
                   ><a href="${
-                    state.isPages
-                      ? state.pageRoutes.artist
-                      : state.homeRoutes.artist
+                    routes.matchingString
+                      ? routes.pageRoutes.artist
+                      : routes.homeRoutes.artist
                   }">Artist</a>
                 </li>
                 <li>
                   <i class="fas fa-compact-disc"></i
                   ><a href="${
-                    state.isPages
-                      ? state.pageRoutes.album
-                      : state.homeRoutes.album
+                    routes.matchingString
+                      ? routes.pageRoutes.album
+                      : routes.homeRoutes.album
                   }">Album</a>
                 </li>
               </ul>
             </div>
-            <div class="d-flex flex-column justify-content-center">
-              <button type="button" class="btn btn-light btn-signup mb-3">
-                <a href="${
-                  state.isPages
-                    ? state.pageRoutes.signup
-                    : state.homeRoutes.signup
-                }">SIGN UP</a>
-              </button>
-              <button type="button" class="btn btn-light btn-login mb-3">
-                <a href="${
-                  state.isPages
-                    ? state.pageRoutes.signup
-                    : state.homeRoutes.signup
-                }">LOGIN</a>
-              </button>
+            <div class="d-flex flex-column">
+            <a href="${
+              routes.matchingString
+                ? routes.pageRoutes.signup
+                : routes.homeRoutes.signup
+            }" class="btn btn-light btn-secondary btn-lg btn-signup mb-3" role="button">Signup</a>
+            <a href="${
+              routes.matchingString
+                ? routes.pageRoutes.signup
+                : routes.homeRoutes.signup
+            }" class="btn btn-light btn-secondary btn-lg btn-login" role="button">Login</a>
             </div>
           </div>
         </div>
