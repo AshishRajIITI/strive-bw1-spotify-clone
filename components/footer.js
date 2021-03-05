@@ -1,4 +1,8 @@
-function footer(elementId) {
+function footer(elementId, routes, currentRoute) {
+  // checks the URL to see if it contains 'pages'
+  // runs check
+  currentRoute('pages')
+
   const template = `
   <div id="desktop-footer-container">
   <!-- PLAYBAR DESKTOP VIEW CODE -->
@@ -87,7 +91,11 @@ function footer(elementId) {
   <div id="mobile-navbar">
     <div class="d-flex justify-content-around align-items-baseline">
       <div class="d-flex flex-column align-items-center">
-        <a class="text-center" href="index.html">
+        <a class="text-center" href="${
+          routes.matchingString
+            ? routes.pageRoutes.home
+            : routes.homeRoutes.home
+        }">
           <i class="bi bi-house-door"></i><br />Home</a
         >
       </div>
@@ -97,13 +105,21 @@ function footer(elementId) {
         >
       </div>
       <div class="d-flex flex-column align-items-center">
-        <a class="text-center" href="./pages/artist.html">
+        <a class="text-center" href="${
+          routes.matchingString
+            ? routes.pageRoutes.artist
+            : routes.homeRoutes.artist
+        }">
           <i class="fab fa-artstation"></i><br />
           Artist</a
         >
       </div>
       <div class="d-flex flex-column align-items-center">
-        <a class="text-center" href="./pages/album.html">
+        <a class="text-center" href="${
+          routes.matchingString
+            ? routes.pageRoutes.album
+            : routes.homeRoutes.album
+        }">
           <i class="fas fa-compact-disc"></i><br />
           Album</a
         >
