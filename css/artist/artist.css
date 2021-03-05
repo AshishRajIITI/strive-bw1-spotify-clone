@@ -126,7 +126,7 @@
 }
 
 #artist-main .artist-btn-play {
-  background-color: #2ed760;
+  background-color: #1db954;
   border: solid 2px transparent;
 }
 
@@ -198,6 +198,20 @@
 
 #artist-main .tile:hover {
   background-color: #282828;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+}
+
+#artist-main .tile:hover .card-img-overlay::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #1db954;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 #artist-main .tile-content {
@@ -224,8 +238,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  float: left;
-  max-width: 150px;
+  text-align: left;
+  max-width: 180px;
 }
 
 #artist-main .tile-body p {
