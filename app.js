@@ -13,7 +13,19 @@ const state = {
     lastname: '',
     email: '',
     password: ''
-  }
+  },
+  music: [
+    {
+      artist: 'Queen',
+      title: 'I Want To Break Free',
+      url: './assets/queen-breakfree.mp3'
+    },
+    {
+      artist: 'Phill Collins',
+      title: 'Easy Lover',
+      url: './assets/phill-collins'
+    }
+  ]
 }
 
 window.onload = function () {
@@ -23,5 +35,5 @@ window.onload = function () {
   // initialise audio player after ui
   // components have been rendered to window
   // otherwise onclicks won't register in service
-  audioplayer()
+  audioplayer(state.music)
 }
