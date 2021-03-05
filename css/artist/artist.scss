@@ -179,18 +179,18 @@
   .tile:hover {
     background-color: #282828;
     transition: 0.4s ease-out;
-    .card-img-overlay::after {
-      content: "";
-      position: absolute;
-      bottom: 10px;
-      right: 10px;
-      width: 40px;
-      height: 40px;
-      background-color: #1db954;
-      // border: 5px solid red;
-      border-radius: 50%;
-      overflow: hidden;
-    }
+    // .card-img-overlay::after {
+    //   content: "";
+    //   position: absolute;
+    //   bottom: 10px;
+    //   right: 10px;
+    //   width: 40px;
+    //   height: 40px;
+    //   background-color: #1db954;
+    //   // border: 5px solid red;
+    //   border-radius: 50%;
+    //   overflow: hidden;
+    // }
   }
 
   .tile-content {
@@ -202,9 +202,10 @@
     min-width: 100px;
     max-width: 200px;
     margin-bottom: 0.5rem;
+    position: relative;
   }
 
-  // .card-img-overlay::after {
+  // .card-img-overlay {
   //   content: "";
   //   position: absolute;
   //   bottom: 10px;
