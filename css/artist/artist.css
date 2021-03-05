@@ -1,17 +1,17 @@
-main {
+#artist-main {
   position: relative;
   background-color: #181818;
 }
 
-h1 {
+#artist-main h1 {
   color: lightpink;
 }
 
-.col.border {
+#artist-main .col.border {
   padding-left: 0px;
 }
 
-#header {
+#artist-main #header {
   height: 45vh;
   overflow: hidden;
   position: relative;
@@ -23,14 +23,14 @@ h1 {
           justify-content: center;
 }
 
-#header img {
+#artist-main #header img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   height: 45vh;
 }
 
-.artist-wrapper {
+#artist-main .artist-wrapper {
   position: absolute;
   bottom: 0px;
   display: -webkit-box;
@@ -39,7 +39,7 @@ h1 {
   z-index: 1;
 }
 
-#header::before {
+#artist-main #header::before {
   content: "";
   display: inline-block;
   background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#181818));
@@ -52,7 +52,7 @@ h1 {
   z-index: 0;
 }
 
-.header-tile-card {
+#artist-main .header-tile-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -65,24 +65,24 @@ h1 {
           justify-content: space-between;
 }
 
-.artist-title {
+#artist-main .artist-title {
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
-.artist-title p:first-of-type {
+#artist-main .artist-title p:first-of-type {
   color: #6c757d;
   margin: 0px;
   font-size: 0.7rem;
 }
 
-.band-name {
+#artist-main .band-name {
   font-size: 4rem;
   color: white;
   font-weight: 700;
 }
 
-.artist-body {
+#artist-main .artist-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,7 +92,7 @@ h1 {
   margin-bottom: 3rem;
 }
 
-.button-container {
+#artist-main .button-container {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,41 +102,41 @@ h1 {
           justify-content: center;
 }
 
-.artist-body button {
+#artist-main .artist-body button {
   margin-right: 1rem;
 }
 
-.artist-body-more {
+#artist-main .artist-body-more {
   text-decoration: none;
   height: 40px;
   font-weight: 800;
   color: white;
 }
 
-.artist-body-more:hover {
+#artist-main .artist-body-more:hover {
   text-decoration: none;
   color: white;
 }
 
-button {
+#artist-main button {
   color: white;
   height: 40px;
   width: 130px;
   border-radius: 20px;
 }
 
-.artist-btn-play {
+#artist-main .artist-btn-play {
   background-color: #2ed760;
   border: solid 2px transparent;
 }
 
-.artist-btn-follow {
+#artist-main .artist-btn-follow {
   width: 150px;
   background-color: transparent;
   border: solid 2px #ffffff;
 }
 
-.artist-footer {
+#artist-main .artist-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -148,7 +148,7 @@ button {
           align-items: flex-end;
 }
 
-.artist-footer a {
+#artist-main .artist-footer a {
   display: inline-block;
   font-weight: 700;
   font-size: 0.7rem;
@@ -157,25 +157,25 @@ button {
   position: relative;
 }
 
-#mobile-header {
+#artist-main #mobile-header {
   display: none;
 }
 
-#albums {
+#artist-main #albums {
   margin-bottom: 125px;
 }
 
-#pop {
+#artist-main #pop {
   display: none;
 }
 
-h2 {
+#artist-main h2 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: 2rem;
 }
 
-.tile {
+#artist-main .tile {
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -191,7 +191,7 @@ h2 {
   margin-bottom: 2rem;
 }
 
-.card {
+#artist-main .card {
   min-width: 100px;
   min-height: 100px;
   max-width: 200px;
@@ -200,12 +200,12 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
-.tile-body {
+#artist-main .tile-body {
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-.tile-body p {
+#artist-main .tile-body p {
   margin-bottom: 0.5rem;
   font-weight: 700;
   overflow: hidden;
@@ -215,44 +215,44 @@ h2 {
   -webkit-line-clamp: 2;
 }
 
-.tile-body p:first-of-type {
+#artist-main .tile-body p:first-of-type {
   color: white;
   font-size: 0.8rem;
 }
 
-.tile-body p:last-of-type {
+#artist-main .tile-body p:last-of-type {
   color: #6c757d;
   font-size: 0.8rem;
 }
 
-#albums h5 {
+#artist-main #albums h5 {
   display: block;
 }
 
 @media only screen and (max-width: 1200px) {
-  .tile-body p {
+  #artist-main .tile-body p {
     white-space: nowrap;
     overflow: hidden;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  #header {
+  #artist-main #header {
     height: 60vh;
   }
-  #header::before {
+  #artist-main #header::before {
     display: none;
   }
-  #header img {
+  #artist-main #header img {
     display: none;
   }
-  .artist-wrapper {
+  #artist-main .artist-wrapper {
     display: none;
   }
-  .tile-body p:last-of-type {
+  #artist-main .tile-body p:last-of-type {
     display: none;
   }
-  #mobile-header {
+  #artist-main #mobile-header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -271,10 +271,10 @@ h2 {
     text-align: center;
     color: white;
   }
-  #albums {
+  #artist-main #albums {
     text-align: center;
   }
-  #mobile-artist-photo {
+  #artist-main #mobile-artist-photo {
     width: 152px;
     height: 152px;
     border-radius: 50%;
@@ -282,7 +282,7 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
   }
-  #artist-btn-shuffle {
+  #artist-main #artist-btn-shuffle {
     height: 50px;
     width: 213px;
     border: 1px solid transparent;
@@ -290,10 +290,10 @@ h2 {
     background-color: #2ed760;
     margin-bottom: 2rem;
   }
-  #mobile-header p:last-of-type {
+  #artist-main #mobile-header p:last-of-type {
     margin-bottom: 2rem;
   }
-  #pop {
+  #artist-main #pop {
     display: block;
     color: white;
     display: -webkit-box;
@@ -307,21 +307,21 @@ h2 {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .pop-tile {
+  #artist-main .pop-tile {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .pop-tile-img {
+  #artist-main .pop-tile-img {
     margin-right: 1rem;
   }
-  .pop-tile-img img {
+  #artist-main .pop-tile-img img {
     height: 56px;
     width: 56px;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .pop-tile-info {
+  #artist-main .pop-tile-info {
     text-align: left;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -334,23 +334,23 @@ h2 {
         -ms-flex-pack: left;
             justify-content: left;
   }
-  #pop-tile-img img {
+  #artist-main #pop-tile-img img {
     height: 134px;
     width: 134px;
   }
-  .tile-body {
+  #artist-main .tile-body {
     display: none;
   }
-  #albums h2 {
+  #artist-main #albums h2 {
     display: none;
   }
-  #albums h5 {
+  #artist-main #albums h5 {
     color: white;
     display: block;
   }
 }
 
-.muted {
+#artist-main .muted {
   color: #6c757d;
   font-size: 0.8rem;
 }

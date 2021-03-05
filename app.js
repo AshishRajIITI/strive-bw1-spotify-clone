@@ -1,4 +1,5 @@
 // shared component imports
+import { routes, currentRoute } from './routes.js'
 import { footer } from './components/footer.js'
 import { sidenav } from './components/sidenav.js'
 
@@ -13,6 +14,6 @@ const state = {
 }
 
 window.onload = function () {
-  sidenav('sidenav')
-  footer('footer')
+  sidenav('sidenav', routes, currentRoute)
+  footer('footer', routes, currentRoute)
 }
