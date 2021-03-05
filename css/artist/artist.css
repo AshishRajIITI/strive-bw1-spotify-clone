@@ -194,10 +194,16 @@
   border-radius: 4px;
   cursor: pointer;
   display: inline-block;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 #artist-main .tile:hover {
   background-color: #282828;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 #artist-main .tile-content {
