@@ -12,9 +12,9 @@
     font-size: 1rem;
   }
 
-  // .row {
-  // overflow: hidden;
-  // }
+  .row {
+    overflow: hidden;
+  }
 
   a {
     color: white;
@@ -31,10 +31,6 @@
     max-height: 250px;
     margin: 0.4rem;
     cursor: pointer;
-    transition: transform 0.2;
-  }
-  .card:hover {
-    transform: scale(1.1);
   }
 
   // .card:not(:first-child) {

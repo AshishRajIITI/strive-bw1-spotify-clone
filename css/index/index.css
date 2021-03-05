@@ -7,6 +7,10 @@
   font-size: 1rem;
 }
 
+#index-main .row {
+  overflow: hidden;
+}
+
 #index-main a {
   color: white;
   margin: 0 0.5rem;
@@ -22,15 +26,6 @@
   max-height: 250px;
   margin: 0.4rem;
   cursor: pointer;
-  -webkit-transition: -webkit-transform 0.2;
-  transition: -webkit-transform 0.2;
-  transition: transform 0.2;
-  transition: transform 0.2, -webkit-transform 0.2;
-}
-
-#index-main .card:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 h1 {
