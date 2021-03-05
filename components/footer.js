@@ -70,25 +70,29 @@ function footer(elementId, routes, currentRoute) {
 
 <div id="mobile-footer-container">
   <div id="mobile-playbar">
+  <progress id="progress" max="100" value="0">Progress</progress>
     <div
-      class="row pt-1 justify-content-around align-items-center pl-4 pr-5"
+      class="row pt-1 justify-content-around align-items-center pl-3 pr-4"
     >
-      <div class="col-2 text-left">
+      <div class="col-1 text-left">
         <ion-icon
           size="large"
           class="mx-2"
           name="heart-outline"
         ></ion-icon>
       </div>
-      <div class="col-8 pb-1 text-center">Queen another...</div>
-      <div class="col-2 text-right">
-      <a style="background-color: none;" class="playback-button p-0 m-0">
-        <ion-icon
-          size="large"
-          class="mx-2"
-          name="pause-circle-outline"
-        ></ion-icon>
-        </a>
+      <div class="col-7 pb-1 text-center">Queen another...</div>
+      <div class="col-3">
+        <div class="row align-items-center justify-content-end">
+        <label id="timer" for="progress" role="timer"></label>
+            <a style="background-color: none;" class="playback-button p-0 m-0">
+              <ion-icon
+                size="large"
+                class="mx-2"
+                name="pause-circle-outline"
+              ></ion-icon>
+              </a>
+          </div>
       </div>
     </div>
   </div>
