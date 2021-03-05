@@ -45,21 +45,17 @@ function sidenav(elementId, routes, currentRoute) {
                 </li>
               </ul>
             </div>
-            <div class="d-flex flex-column justify-content-center">
-              <button type="button" class="btn btn-light btn-signup mb-3">
-                <a href="${
-                  routes.matchingString
-                    ? routes.pageRoutes.signup
-                    : routes.homeRoutes.signup
-                }">SIGN UP</a>
-              </button>
-              <button type="button" class="btn btn-light btn-login mb-3">
-                <a href="${
-                  routes.matchingString
-                    ? routes.pageRoutes.signup
-                    : routes.homeRoutes.signup
-                }">LOGIN</a>
-              </button>
+            <div class="d-flex flex-column">
+            <a href="${
+              routes.matchingString
+                ? routes.pageRoutes.signup
+                : routes.homeRoutes.signup
+            }" class="btn btn-light btn-secondary btn-lg btn-signup mb-3" role="button">Signup</a>
+            <a href="${
+              routes.matchingString
+                ? routes.pageRoutes.signup
+                : routes.homeRoutes.signup
+            }" class="btn btn-light btn-secondary btn-lg btn-login" role="button">Login</a>
             </div>
           </div>
         </div>

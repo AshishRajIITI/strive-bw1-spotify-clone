@@ -71,22 +71,14 @@ nav i {
 }
 
 nav .btn {
-  border-radius: 25px;
+  border-radius: 30px;
   font-size: 0.6rem;
-}
-
-nav .btn-signup a {
-  color: black;
-  font-size: 0.6rem;
+  font-weight: bold;
 }
 
 nav .btn-login {
   background: none;
   color: white;
-  font-size: 0.6rem;
-}
-
-nav .btn-login a {
   font-size: 0.6rem;
 }
 
@@ -119,14 +111,6 @@ footer i:hover {
 
 footer i {
   font-size: 1.4rem;
-}
-
-footer #mobile-playbar {
-  border-bottom: 2px #272727 solid;
-}
-
-footer #mobile-playbar ion-icon {
-  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
