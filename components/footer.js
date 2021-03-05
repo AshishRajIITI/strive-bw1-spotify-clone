@@ -79,11 +79,13 @@ function footer(elementId, routes, currentRoute) {
       </div>
       <div class="col-8 pb-1 text-center">Queen another...</div>
       <div class="col-2 text-right">
+      <a style="background-color: none;" class="p-0 m-0" id="pause-button">
         <ion-icon
           size="large"
           class="mx-2"
           name="pause-circle-outline"
         ></ion-icon>
+        </a>
       </div>
     </div>
   </div>

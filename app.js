@@ -16,9 +16,12 @@ const state = {
   }
 }
 
-// initialise components and services on window load.
 window.onload = function () {
-  audioplayer()
   sidenav('sidenav', routes, currentRoute)
   footer('footer', routes, currentRoute)
+
+  // initialise audio player after ui
+  // components have been rendered to window
+  // otherwise onclicks won't register in service
+  audioplayer()
 }

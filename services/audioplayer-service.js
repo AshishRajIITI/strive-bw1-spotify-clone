@@ -1,13 +1,18 @@
 function audioplayer() {
-  const x = document.getElementById('myAudio')
+  const x = document.getElementById('pause-button')
+  console.log(x)
 
-  function playAudio() {
-    x.play()
-  }
+  x.addEventListener('click', () => {
+    console.log('click')
+  })
 
-  function pauseAudio() {
-    x.pause()
-  }
+  // function playAudio() {
+  //   x.play()
+  // }
+
+  // function pauseAudio() {
+  //   x.pause()
+  // }
 }
 
 export { audioplayer }
