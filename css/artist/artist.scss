@@ -1,6 +1,6 @@
 #artist-main {
   position: relative;
-  background-color: #181818;
+  background-color: #121212;
 
   h1 {
     color: lightpink;
@@ -34,7 +34,7 @@
   #header::before {
     content: "";
     display: inline-block;
-    background: linear-gradient(transparent, #181818);
+    background: linear-gradient(transparent, #121212);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -151,48 +151,62 @@
     display: none;
   }
 
+  #col-album {
+    display: flex;
+    width: 100%;
+  }
+
   h2 {
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 2rem;
   }
 
+  #albums h5 {
+    display: none;
+  }
+
   .tile {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin-right: 1rem;
     margin-bottom: 2rem;
+    background-color: #191919;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .tile:hover {
+    background-color: #282828;
+  }
+
+  .tile-content {
+    box-sizing: content-box;
+    padding: 0.8rem;
   }
 
   .card {
     min-width: 100px;
-    min-height: 100px;
     max-width: 200px;
-    max-height: 200px;
-    cursor: pointer;
     margin-bottom: 0.5rem;
   }
 
   .tile-body {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 0.5rem 1rem 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+    max-width: 150px;
   }
 
   .tile-body p {
-    margin-bottom: 0.5rem;
-    font-weight: 700;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    margin-bottom: 0px;
   }
 
   .tile-body p:first-of-type {
     color: white;
-    font-size: 0.8rem;
+    font-weight: 700;
   }
 
   .tile-body p:last-of-type {
@@ -200,16 +214,14 @@
     font-size: 0.8rem;
   }
 
-  #albums h5 {
-    display: block;
-  }
-
-  @media only screen and (max-width: 1200px) {
-    .tile-body p {
-      white-space: nowrap;
-      overflow: hidden;
-    }
-  }
+  // @media only screen and (min-width: 769px) {
+  //   .tile-body p {
+  //     width: 150px;
+  //     white-space: nowrap;
+  //     text-overflow: ellipsis;
+  //     overflow: hidden;
+  //   }
+  // }
 
   @media only screen and (max-width: 768px) {
     #header {
@@ -250,7 +262,6 @@
     #mobile-artist-photo {
       width: 152px;
       height: 152px;
-
       border-radius: 50%;
       background-image: url("../../assets/artist-top-image.jpg");
       background-size: cover;
