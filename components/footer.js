@@ -30,11 +30,14 @@ function footer(elementId, routes, currentRoute) {
           name="play-skip-back-circle-outline"
         ></ion-icon>
 
+
+        <a style="background-color: none;" class="playback-button p-0 m-0">
         <ion-icon
           class="mx-2"
           size="large"
           name="pause-circle-outline"
         ></ion-icon>
+        </a>
 
         <ion-icon
           class="mx-4"
@@ -79,7 +82,7 @@ function footer(elementId, routes, currentRoute) {
       </div>
       <div class="col-8 pb-1 text-center">Queen another...</div>
       <div class="col-2 text-right">
-      <a style="background-color: none;" class="p-0 m-0" id="pause-button">
+      <a style="background-color: none;" class="playback-button p-0 m-0">
         <ion-icon
           size="large"
           class="mx-2"

@@ -1,18 +1,42 @@
-function audioplayer() {
-  const x = document.getElementById('pause-button')
-  console.log(x)
+const easylover = new Audio('../assets/easylover.mp3')
 
-  x.addEventListener('click', () => {
-    console.log('click')
+function audioplayer() {
+  // player state
+  const state = {
+    isPlaying: false
+  }
+
+  const elements = document.getElementsByClassName('playback-button')
+  console.log(elements)
+
+  Array.from(elements).forEach((element) => {
+    element.addEventListener('click', () => {
+      if (!state.isPlaying) {
+        console.log('clicked')
+        playAudio()
+        state.isPlaying = true
+      } else {
+        pauseAudio()
+        state.isPlaying = false
+      }
+    })
   })
 
-  // function playAudio() {
-  //   x.play()
-  // }
+  function playAudio() {
+    easylover.play()
+  }
 
-  // function pauseAudio() {
-  //   x.pause()
-  // }
+  function pauseAudio() {
+    easylover.pause()
+  }
 }
 
 export { audioplayer }
+
+// const selected = document.getElementsByClassName('playback-button')
+//   console.log(selected)
+
+//   selected.addEventListener('click', () => {
+//     console.log('click')
+//     playAudio()
+//   })
