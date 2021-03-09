@@ -35,7 +35,7 @@ function footer(elementId, routes, currentRoute) {
         <ion-icon
           class="mx-2"
           size="large"
-          name="pause-circle-outline"
+          name="play-circle-outline"
         ></ion-icon>
         </a>
 
@@ -89,7 +89,7 @@ function footer(elementId, routes, currentRoute) {
               <ion-icon
                 size="large"
                 class="mx-2"
-                name="pause-circle-outline"
+                name="play-circle-outline"
               ></ion-icon>
               </a>
           </div>
