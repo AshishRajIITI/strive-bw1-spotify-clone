@@ -240,7 +240,57 @@
     <footer id="footer">
       <!-- JS dynamically injected during window onload in app.js -->
     </footer>
+    <script>
+      async function searchDeezer(query) {
+        try {
+          const response = await fetch(
+            " https://deezerdevs-deezer.p.rapidapi.com/search?q=eminem",
+            {
+              method: "GET",
+              headers: {
+                "x-rapidapi-key":
+                  "410d132ae8msh57d91f7e209cf4ap193685jsn499bde3e3232",
+                "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com",
+              },
+            }
+          );
+          const data = await response.json();
+          return data;
+        } catch (error) {
+          console.log(error);
+        }
+      }
 
+      window.onload = async function () {
+        const data = await searchDeezer("Eminem");
+        console.log(data);
+      };
+
+      async function searchDeezer(query) {
+        try {
+          const response = await fetch(
+            " https://deezerdevs-deezer.p.rapidapi.com/search?q=metallica",
+            {
+              method: "GET",
+              headers: {
+                "x-rapidapi-key":
+                  "410d132ae8msh57d91f7e209cf4ap193685jsn499bde3e3232",
+                "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com",
+              },
+            }
+          );
+          const data = await response.json();
+          return data;
+        } catch (error) {
+          console.log(error);
+        }
+      }
+
+      window.onload = async function () {
+        const data = await searchDeezer("Metallica");
+        console.log(data);
+      };
+    </script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
